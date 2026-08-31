@@ -1,0 +1,1999 @@
+{
+  "batch": 4,
+  "generated_at": "2026-08-31T16:03:45+08:00",
+  "scope": "50 unique Chinese-language 2024 ESG/sustainability reports",
+  "mineru_version": "3.4.4",
+  "gpu_mode": "cuda",
+  "acceptance": {
+    "input_pdf_count": {
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    "unique_pdf_sha256": {
+      "expected": 50,
+      "actual": 50,
+      "duplicates": [],
+      "pass": true
+    },
+    "unique_normalized_text_fingerprint": {
+      "expected": 50,
+      "actual": 50,
+      "duplicates": [],
+      "pass": true
+    },
+    "unique_company_and_ticker": {
+      "expected": 50,
+      "actual": 50,
+      "duplicates": [],
+      "pass": true
+    },
+    "output_directory_count": {
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    "all_items_valid": true,
+    "all_2024_esg_verified": true
+  },
+  "archive": {
+    "path": "E:\\Pioneer\\819\\03_发布与交付\\github_upload_esg_model_20260824\\第4批次_解析结果.7z",
+    "present": true,
+    "size_bytes": 1317195245,
+    "sha256": "0f968533229b4051f85bfd0657a3812c07983a71609c44a914bbd00f58909d91",
+    "seven_zip_test_exit_code": 0,
+    "seven_zip_test_pass": true
+  },
+  "items": [
+    {
+      "sequence": 1,
+      "company": "中国平安",
+      "ticker": "601318.SH",
+      "year": "2024",
+      "title": "中国平安2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-20/1222847442.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:14:55+08:00",
+      "local_filename": "第4批次_01_中国平安.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_01_中国平安.pdf",
+      "file_size_bytes": 15532565,
+      "pages": 190,
+      "pdf_sha256": "ec425338c0cd989c8e0e208e3b38598385a0568634caef266e34366e2dfd45a9",
+      "normalized_text_fingerprint": "76348a99965979629118c329cc25a7d0f999a4288a35a6691b774a44af349439",
+      "mineru_parse_method": "pipeline-ocr",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_01_中国平安",
+      "markdown_files": [
+        "ocr\\第4批次_01_中国平安.md"
+      ],
+      "json_files": [
+        "ocr\\第4批次_01_中国平安_content_list.json",
+        "ocr\\第4批次_01_中国平安_content_list_v2.json",
+        "ocr\\第4批次_01_中国平安_middle.json",
+        "ocr\\第4批次_01_中国平安_model.json"
+      ],
+      "origin_files": [
+        "ocr\\第4批次_01_中国平安_origin.pdf"
+      ],
+      "markdown_chars": 140522,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "ec425338c0cd989c8e0e208e3b38598385a0568634caef266e34366e2dfd45a9",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 2,
+      "company": "国泰君安",
+      "ticker": "601211.SH",
+      "year": "2024",
+      "title": "国泰君安2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222949891.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:14:58+08:00",
+      "local_filename": "第4批次_02_国泰君安.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_02_国泰君安.pdf",
+      "file_size_bytes": 6692522,
+      "pages": 156,
+      "pdf_sha256": "4a7ecd064dfaf128a8e048a62a865a266809ee985aad550c10e6a5f9050f95c3",
+      "normalized_text_fingerprint": "785614b6f79c007d83035b2abc030478d0448e110b028d75fe684cd0778ad7ae",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_02_国泰君安",
+      "markdown_files": [
+        "txt\\第4批次_02_国泰君安.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_02_国泰君安_content_list.json",
+        "txt\\第4批次_02_国泰君安_content_list_v2.json",
+        "txt\\第4批次_02_国泰君安_middle.json",
+        "txt\\第4批次_02_国泰君安_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_02_国泰君安_origin.pdf"
+      ],
+      "markdown_chars": 95411,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "4a7ecd064dfaf128a8e048a62a865a266809ee985aad550c10e6a5f9050f95c3",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 3,
+      "company": "中国能源建设",
+      "ticker": "601868.SH",
+      "year": "2024",
+      "title": "中国能源建设2024年度环境社会治理报告",
+      "source_url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-29/601868_20250329_UKQT.pdf",
+      "source_type": "上交所",
+      "download_time": "2026-08-31T12:15:01+08:00",
+      "local_filename": "第4批次_03_中国能源建设.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_03_中国能源建设.pdf",
+      "file_size_bytes": 12287716,
+      "pages": 39,
+      "pdf_sha256": "2896ffe1a637945c0892a0a0f4ee729453f215efd15455224dca2ad2563774fa",
+      "normalized_text_fingerprint": "fc351f2da9b2094e4e7777159506c3dc68857c84d6b27e56bcc1fd70dd3a3c96",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_03_中国能源建设",
+      "markdown_files": [
+        "txt\\第4批次_03_中国能源建设.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_03_中国能源建设_content_list.json",
+        "txt\\第4批次_03_中国能源建设_content_list_v2.json",
+        "txt\\第4批次_03_中国能源建设_middle.json",
+        "txt\\第4批次_03_中国能源建设_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_03_中国能源建设_origin.pdf"
+      ],
+      "markdown_chars": 52377,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "2896ffe1a637945c0892a0a0f4ee729453f215efd15455224dca2ad2563774fa",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 4,
+      "company": "中国中车",
+      "ticker": "601766.SH",
+      "year": "2024",
+      "title": "中国中车2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222949493.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:15:02+08:00",
+      "local_filename": "第4批次_04_中国中车.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_04_中国中车.pdf",
+      "file_size_bytes": 3428712,
+      "pages": 107,
+      "pdf_sha256": "36aa97c39c07b7372a0e94e48aec1d3eec496409f674668af8009f8325e25f04",
+      "normalized_text_fingerprint": "86ec832a0a99264a4b09c432d77e3bdd21384c01f9181dbca52a1dc86b90e980",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_04_中国中车",
+      "markdown_files": [
+        "txt\\第4批次_04_中国中车.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_04_中国中车_content_list.json",
+        "txt\\第4批次_04_中国中车_content_list_v2.json",
+        "txt\\第4批次_04_中国中车_middle.json",
+        "txt\\第4批次_04_中国中车_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_04_中国中车_origin.pdf"
+      ],
+      "markdown_chars": 56003,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "36aa97c39c07b7372a0e94e48aec1d3eec496409f674668af8009f8325e25f04",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 5,
+      "company": "中国铁建",
+      "ticker": "601186.SH",
+      "year": "2024",
+      "title": "中国铁建2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222941016.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:15:03+08:00",
+      "local_filename": "第4批次_05_中国铁建.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_05_中国铁建.pdf",
+      "file_size_bytes": 2254425,
+      "pages": 111,
+      "pdf_sha256": "d0411ccfd20e873fd494e66986255026d69e08b7a6d95b22258bd26e51cd1a11",
+      "normalized_text_fingerprint": "87bfe1a94abc6349fcbe17622b16e1c1276d0494c33c5d0a989aa07b4616ae58",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_05_中国铁建",
+      "markdown_files": [
+        "txt\\第4批次_05_中国铁建.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_05_中国铁建_content_list.json",
+        "txt\\第4批次_05_中国铁建_content_list_v2.json",
+        "txt\\第4批次_05_中国铁建_middle.json",
+        "txt\\第4批次_05_中国铁建_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_05_中国铁建_origin.pdf"
+      ],
+      "markdown_chars": 41374,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "d0411ccfd20e873fd494e66986255026d69e08b7a6d95b22258bd26e51cd1a11",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 6,
+      "company": "中国交建",
+      "ticker": "601800.SH",
+      "year": "2024",
+      "title": "中国交建2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223448798.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:15:04+08:00",
+      "local_filename": "第4批次_06_中国交建.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_06_中国交建.pdf",
+      "file_size_bytes": 19942425,
+      "pages": 90,
+      "pdf_sha256": "0822e95c633550e23aefc47aba304616f96af39a3b893088cd668e0542964303",
+      "normalized_text_fingerprint": "49d3d8a6caa89fbcf7490bf028b3fb4b2ee3992dd615e8b38f490fdf24fba9cc",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_06_中国交建",
+      "markdown_files": [
+        "txt\\第4批次_06_中国交建.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_06_中国交建_content_list.json",
+        "txt\\第4批次_06_中国交建_content_list_v2.json",
+        "txt\\第4批次_06_中国交建_middle.json",
+        "txt\\第4批次_06_中国交建_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_06_中国交建_origin.pdf"
+      ],
+      "markdown_chars": 328894,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "0822e95c633550e23aefc47aba304616f96af39a3b893088cd668e0542964303",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 7,
+      "company": "上汽集团",
+      "ticker": "600104.SH",
+      "year": "2024",
+      "title": "上汽集团2024年度环境社会和公司治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223418973.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:15:07+08:00",
+      "local_filename": "第4批次_07_上汽集团.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_07_上汽集团.pdf",
+      "file_size_bytes": 5486483,
+      "pages": 54,
+      "pdf_sha256": "b0786c979dd21996b4a538f07fd20b024e54d383f2cc43e17d0516e1d8213b93",
+      "normalized_text_fingerprint": "ee5e658a1a3147b984289b3d8f3ab6baa365d49d7670956facc1c6794048611f",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_07_上汽集团",
+      "markdown_files": [
+        "txt\\第4批次_07_上汽集团.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_07_上汽集团_content_list.json",
+        "txt\\第4批次_07_上汽集团_content_list_v2.json",
+        "txt\\第4批次_07_上汽集团_middle.json",
+        "txt\\第4批次_07_上汽集团_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_07_上汽集团_origin.pdf"
+      ],
+      "markdown_chars": 58545,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "b0786c979dd21996b4a538f07fd20b024e54d383f2cc43e17d0516e1d8213b93",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 8,
+      "company": "比亚迪",
+      "ticker": "002594.SZ",
+      "year": "2024",
+      "title": "比亚迪2024年可持续发展报告",
+      "source_url": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-03-25/0f91d9b9-8154-4aad-ae67-d3d671eec157.PDF",
+      "source_type": "深交所",
+      "download_time": "2026-08-31T12:15:09+08:00",
+      "local_filename": "第4批次_08_比亚迪.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_08_比亚迪.pdf",
+      "file_size_bytes": 21711010,
+      "pages": 155,
+      "pdf_sha256": "8dfceabd75452ffaf39b0ffa7a1e841707b586931347819e058ebb343c93b1dd",
+      "normalized_text_fingerprint": "d0153384fa60c5c8dd95058c777a2f8155d1becc7d65b89b67be0a18aaa93431",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_08_比亚迪",
+      "markdown_files": [
+        "txt\\第4批次_08_比亚迪.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_08_比亚迪_content_list.json",
+        "txt\\第4批次_08_比亚迪_content_list_v2.json",
+        "txt\\第4批次_08_比亚迪_middle.json",
+        "txt\\第4批次_08_比亚迪_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_08_比亚迪_origin.pdf"
+      ],
+      "markdown_chars": 145492,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "8dfceabd75452ffaf39b0ffa7a1e841707b586931347819e058ebb343c93b1dd",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 9,
+      "company": "格力电器",
+      "ticker": "000651.SZ",
+      "year": "2024",
+      "title": "格力电器2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223330624.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:15:12+08:00",
+      "local_filename": "第4批次_09_格力电器.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_09_格力电器.pdf",
+      "file_size_bytes": 14109978,
+      "pages": 93,
+      "pdf_sha256": "f807b17a2198fbcd310a92c83a18d9cb58ae92f2668750b0ec62f582eb0bcd63",
+      "normalized_text_fingerprint": "8e7e9441743d1db806c1e2ac3656ab766428a709e4e202b0203873b843f1c27d",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_09_格力电器",
+      "markdown_files": [
+        "txt\\第4批次_09_格力电器.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_09_格力电器_content_list.json",
+        "txt\\第4批次_09_格力电器_content_list_v2.json",
+        "txt\\第4批次_09_格力电器_middle.json",
+        "txt\\第4批次_09_格力电器_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_09_格力电器_origin.pdf"
+      ],
+      "markdown_chars": 145606,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "f807b17a2198fbcd310a92c83a18d9cb58ae92f2668750b0ec62f582eb0bcd63",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 10,
+      "company": "金山办公",
+      "ticker": "688111.SH",
+      "year": "2024",
+      "title": "金山办公2024年可持续发展报告",
+      "source_url": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-20/688111_20250320_5T47.pdf",
+      "source_type": "上交所",
+      "download_time": "2026-08-31T12:58:44+08:00",
+      "local_filename": "第4批次_10_金山办公.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_10_金山办公.pdf",
+      "file_size_bytes": 21781915,
+      "pages": 95,
+      "pdf_sha256": "5da371ff81ff03c0fa7d14ffe30d304747a918f581ca1a81f9a5e61883f82a11",
+      "normalized_text_fingerprint": "c2937c4fd72fb6754677da1b20ad4675dddb6930942010ef2ad20fdf2a89adc0",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_10_金山办公",
+      "markdown_files": [
+        "txt\\第4批次_10_金山办公.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_10_金山办公_content_list.json",
+        "txt\\第4批次_10_金山办公_content_list_v2.json",
+        "txt\\第4批次_10_金山办公_middle.json",
+        "txt\\第4批次_10_金山办公_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_10_金山办公_origin.pdf"
+      ],
+      "markdown_chars": 87922,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "5da371ff81ff03c0fa7d14ffe30d304747a918f581ca1a81f9a5e61883f82a11",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 11,
+      "company": "三花智控",
+      "ticker": "002050.SZ",
+      "year": "2024",
+      "title": "三花智控2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222913180.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:44:58+08:00",
+      "local_filename": "第4批次_11_三花智控.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_11_三花智控.pdf",
+      "file_size_bytes": 10323034,
+      "pages": 62,
+      "pdf_sha256": "a33cf119e1edf7536d57672a17f517afe7c51b18590d7f6c96efbd53b7d189bf",
+      "normalized_text_fingerprint": "75b343edef3600fd43d63a1c0a6bd1e3644c243eac42ba24b8c3f1c17bac2108",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_11_三花智控",
+      "markdown_files": [
+        "txt\\第4批次_11_三花智控.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_11_三花智控_content_list.json",
+        "txt\\第4批次_11_三花智控_content_list_v2.json",
+        "txt\\第4批次_11_三花智控_middle.json",
+        "txt\\第4批次_11_三花智控_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_11_三花智控_origin.pdf"
+      ],
+      "markdown_chars": 57537,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "a33cf119e1edf7536d57672a17f517afe7c51b18590d7f6c96efbd53b7d189bf",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 12,
+      "company": "宁沪高速",
+      "ticker": "600377.SH",
+      "year": "2024",
+      "title": "宁沪高速2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222912241.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:45:28+08:00",
+      "local_filename": "第4批次_12_宁沪高速.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_12_宁沪高速.pdf",
+      "file_size_bytes": 4681619,
+      "pages": 101,
+      "pdf_sha256": "224ab6128abdd27790bb7919e4682c3bf5e4f777e1ee26c883432e26922d5d2f",
+      "normalized_text_fingerprint": "847dcfacf48a630ec1886f7e7d1145528f30ab3d99bf24a3ddbcdc6e440b4f5d",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_12_宁沪高速",
+      "markdown_files": [
+        "txt\\第4批次_12_宁沪高速.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_12_宁沪高速_content_list.json",
+        "txt\\第4批次_12_宁沪高速_content_list_v2.json",
+        "txt\\第4批次_12_宁沪高速_middle.json",
+        "txt\\第4批次_12_宁沪高速_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_12_宁沪高速_origin.pdf"
+      ],
+      "markdown_chars": 50725,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "224ab6128abdd27790bb7919e4682c3bf5e4f777e1ee26c883432e26922d5d2f",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 13,
+      "company": "大唐华银电力",
+      "ticker": "600744.SH",
+      "year": "2024",
+      "title": "大唐华银电力2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223247674.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:45:48+08:00",
+      "local_filename": "第4批次_13_大唐华银电力.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_13_大唐华银电力.pdf",
+      "file_size_bytes": 8538325,
+      "pages": 29,
+      "pdf_sha256": "c6c4ea22f3d1048c3bd5e5d610591a9c3af5e5fbb1b9edd41bd826867edab732",
+      "normalized_text_fingerprint": "496e31288651e6053c27203d5e4237676e63e0218118f41bdcb6e4fbd46e5738",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_13_大唐华银电力",
+      "markdown_files": [
+        "txt\\第4批次_13_大唐华银电力.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_13_大唐华银电力_content_list.json",
+        "txt\\第4批次_13_大唐华银电力_content_list_v2.json",
+        "txt\\第4批次_13_大唐华银电力_middle.json",
+        "txt\\第4批次_13_大唐华银电力_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_13_大唐华银电力_origin.pdf"
+      ],
+      "markdown_chars": 27268,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "c6c4ea22f3d1048c3bd5e5d610591a9c3af5e5fbb1b9edd41bd826867edab732",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 14,
+      "company": "南京证券",
+      "ticker": "601990.SH",
+      "year": "2024",
+      "title": "南京证券2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222866056.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:59:27+08:00",
+      "local_filename": "第4批次_14_南京证券.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_14_南京证券.pdf",
+      "file_size_bytes": 9579263,
+      "pages": 47,
+      "pdf_sha256": "217bf7d00826a3043d907cf0a029d507a13d897a41178a9c09f4f08fa6c7cb80",
+      "normalized_text_fingerprint": "0070ae687df4a41854c7393ed4f7059c632cbf67f3e43298347989d0562b2780",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_14_南京证券",
+      "markdown_files": [
+        "txt\\第4批次_14_南京证券.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_14_南京证券_content_list.json",
+        "txt\\第4批次_14_南京证券_content_list_v2.json",
+        "txt\\第4批次_14_南京证券_middle.json",
+        "txt\\第4批次_14_南京证券_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_14_南京证券_origin.pdf"
+      ],
+      "markdown_chars": 60647,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "217bf7d00826a3043d907cf0a029d507a13d897a41178a9c09f4f08fa6c7cb80",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 15,
+      "company": "特发信息",
+      "ticker": "000070.SZ",
+      "year": "2024",
+      "title": "特发信息2024年环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223186295.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:47:08+08:00",
+      "local_filename": "第4批次_15_特发信息.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_15_特发信息.pdf",
+      "file_size_bytes": 22147984,
+      "pages": 42,
+      "pdf_sha256": "c128de2d2535c78178f0b1bfc3fc026c82b7646a31ded8551165d6630ae8fed5",
+      "normalized_text_fingerprint": "8238801928f7bbac9a33185f6dd8c988a138e8d3288d7fc43990e02fadeb4032",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_15_特发信息",
+      "markdown_files": [
+        "txt\\第4批次_15_特发信息.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_15_特发信息_content_list.json",
+        "txt\\第4批次_15_特发信息_content_list_v2.json",
+        "txt\\第4批次_15_特发信息_middle.json",
+        "txt\\第4批次_15_特发信息_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_15_特发信息_origin.pdf"
+      ],
+      "markdown_chars": 47418,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "c128de2d2535c78178f0b1bfc3fc026c82b7646a31ded8551165d6630ae8fed5",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 16,
+      "company": "孩子王",
+      "ticker": "301078.SZ",
+      "year": "2024",
+      "title": "孩子王2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222990060.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:47:39+08:00",
+      "local_filename": "第4批次_16_孩子王.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_16_孩子王.pdf",
+      "file_size_bytes": 16058429,
+      "pages": 51,
+      "pdf_sha256": "80e79e45da02663f640b95d4b0e9f9888afcf8fc1d4b7072766bfc757412dde5",
+      "normalized_text_fingerprint": "8669118d26fd7fe8ca54c2f2502e6388c0152b8e4978463cdde2b3b738e6a309",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_16_孩子王",
+      "markdown_files": [
+        "txt\\第4批次_16_孩子王.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_16_孩子王_content_list.json",
+        "txt\\第4批次_16_孩子王_content_list_v2.json",
+        "txt\\第4批次_16_孩子王_middle.json",
+        "txt\\第4批次_16_孩子王_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_16_孩子王_origin.pdf"
+      ],
+      "markdown_chars": 72277,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "80e79e45da02663f640b95d4b0e9f9888afcf8fc1d4b7072766bfc757412dde5",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 17,
+      "company": "深圳华侨城A",
+      "ticker": "000069.SZ",
+      "year": "2024",
+      "title": "深圳华侨城股份2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222949828.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T12:59:54+08:00",
+      "local_filename": "第4批次_17_深圳华侨城A.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_17_深圳华侨城A.pdf",
+      "file_size_bytes": 12178821,
+      "pages": 44,
+      "pdf_sha256": "8c8d2a13cdaf37a3fe0f01b40125fba0e862a22dbe5163eedf550fd3a941aed8",
+      "normalized_text_fingerprint": "d31b5e7bcba35d735f6dbc2aad27edc1eb35902fa7b4d8df9586bfd4e13201eb",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_17_深圳华侨城A",
+      "markdown_files": [
+        "txt\\第4批次_17_深圳华侨城A.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_17_深圳华侨城A_content_list.json",
+        "txt\\第4批次_17_深圳华侨城A_content_list_v2.json",
+        "txt\\第4批次_17_深圳华侨城A_middle.json",
+        "txt\\第4批次_17_深圳华侨城A_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_17_深圳华侨城A_origin.pdf"
+      ],
+      "markdown_chars": 43432,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "8c8d2a13cdaf37a3fe0f01b40125fba0e862a22dbe5163eedf550fd3a941aed8",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 18,
+      "company": "移远通信",
+      "ticker": "603236.SH",
+      "year": "2024",
+      "title": "移远通信2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223241745.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:00:30+08:00",
+      "local_filename": "第4批次_18_移远通信.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_18_移远通信.pdf",
+      "file_size_bytes": 29420453,
+      "pages": 68,
+      "pdf_sha256": "7fcd7c764b7d20d5c3eb4881e1f6e7bb3708f218965261d54218dc26a2fdd816",
+      "normalized_text_fingerprint": "9c892d396c268821aadd90466f584584c7fed79f217fd80b23718d686421a268",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_18_移远通信",
+      "markdown_files": [
+        "txt\\第4批次_18_移远通信.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_18_移远通信_content_list.json",
+        "txt\\第4批次_18_移远通信_content_list_v2.json",
+        "txt\\第4批次_18_移远通信_middle.json",
+        "txt\\第4批次_18_移远通信_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_18_移远通信_origin.pdf"
+      ],
+      "markdown_chars": 70167,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "7fcd7c764b7d20d5c3eb4881e1f6e7bb3708f218965261d54218dc26a2fdd816",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 19,
+      "company": "紫金矿业",
+      "ticker": "601899.SH",
+      "year": "2024",
+      "title": "紫金矿业2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870414.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:01:28+08:00",
+      "local_filename": "第4批次_19_紫金矿业.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_19_紫金矿业.pdf",
+      "file_size_bytes": 33054817,
+      "pages": 130,
+      "pdf_sha256": "96c83319125937ef7329cbd6aa19da0d5c20b0ad4fc9b4a97606bcdb1d13146f",
+      "normalized_text_fingerprint": "e0c247fea85d09877f2fbd43c72cefdddaca32cca0ed47d45788c10c530a1fb2",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_19_紫金矿业",
+      "markdown_files": [
+        "txt\\第4批次_19_紫金矿业.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_19_紫金矿业_content_list.json",
+        "txt\\第4批次_19_紫金矿业_content_list_v2.json",
+        "txt\\第4批次_19_紫金矿业_middle.json",
+        "txt\\第4批次_19_紫金矿业_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_19_紫金矿业_origin.pdf"
+      ],
+      "markdown_chars": 123821,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "96c83319125937ef7329cbd6aa19da0d5c20b0ad4fc9b4a97606bcdb1d13146f",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 20,
+      "company": "中芯国际",
+      "ticker": "688981.SH",
+      "year": "2024",
+      "title": "中芯国际2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222925664.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:02:18+08:00",
+      "local_filename": "第4批次_20_中芯国际.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_20_中芯国际.pdf",
+      "file_size_bytes": 9211479,
+      "pages": 96,
+      "pdf_sha256": "92b8ef1de1f7a2eae8d0e5ac33173fb691ee85cbafe3b5d2cd66e248a480850f",
+      "normalized_text_fingerprint": "ddd261e663424544bb00e32112fa3abc9635967c3edcaab74ee3f983ef977f01",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_20_中芯国际",
+      "markdown_files": [
+        "txt\\第4批次_20_中芯国际.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_20_中芯国际_content_list.json",
+        "txt\\第4批次_20_中芯国际_content_list_v2.json",
+        "txt\\第4批次_20_中芯国际_middle.json",
+        "txt\\第4批次_20_中芯国际_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_20_中芯国际_origin.pdf"
+      ],
+      "markdown_chars": 84281,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "92b8ef1de1f7a2eae8d0e5ac33173fb691ee85cbafe3b5d2cd66e248a480850f",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 21,
+      "company": "中兴通讯",
+      "ticker": "000063.SZ",
+      "year": "2024",
+      "title": "中兴通讯2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675740.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:02:52+08:00",
+      "local_filename": "第4批次_21_中兴通讯.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_21_中兴通讯.pdf",
+      "file_size_bytes": 8134516,
+      "pages": 126,
+      "pdf_sha256": "03f95276b4a7c8e7b6e009ae0b66bee8f89b205ba2cf46d09b7aea4f1a72d570",
+      "normalized_text_fingerprint": "3c533efcbcec0e443ccdfd4628378c0a9d86a0d537cf0634f41a08d1d56a08f7",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_21_中兴通讯",
+      "markdown_files": [
+        "txt\\第4批次_21_中兴通讯.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_21_中兴通讯_content_list.json",
+        "txt\\第4批次_21_中兴通讯_content_list_v2.json",
+        "txt\\第4批次_21_中兴通讯_middle.json",
+        "txt\\第4批次_21_中兴通讯_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_21_中兴通讯_origin.pdf"
+      ],
+      "markdown_chars": 100887,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "03f95276b4a7c8e7b6e009ae0b66bee8f89b205ba2cf46d09b7aea4f1a72d570",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 22,
+      "company": "中信金属",
+      "ticker": "601061.SH",
+      "year": "2024",
+      "title": "中信金属2024年度环境社会及治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223277566.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:03:52+08:00",
+      "local_filename": "第4批次_22_中信金属.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_22_中信金属.pdf",
+      "file_size_bytes": 24688508,
+      "pages": 64,
+      "pdf_sha256": "a500210efd68a9ba77b7b73135dfb60c89ce20b72ae098bfe54d28ef01e14a25",
+      "normalized_text_fingerprint": "f7456cf225fc5b40c41eb999a6cdbe0db36edf73a34f13292ee9d8db4a270776",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_22_中信金属",
+      "markdown_files": [
+        "txt\\第4批次_22_中信金属.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_22_中信金属_content_list.json",
+        "txt\\第4批次_22_中信金属_content_list_v2.json",
+        "txt\\第4批次_22_中信金属_middle.json",
+        "txt\\第4批次_22_中信金属_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_22_中信金属_origin.pdf"
+      ],
+      "markdown_chars": 60807,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "a500210efd68a9ba77b7b73135dfb60c89ce20b72ae098bfe54d28ef01e14a25",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 23,
+      "company": "北京键凯科技",
+      "ticker": "688356.SH",
+      "year": "2024",
+      "title": "北京键凯科技2024年社会责任报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223381318.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:04:49+08:00",
+      "local_filename": "第4批次_23_北京键凯科技.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_23_北京键凯科技.pdf",
+      "file_size_bytes": 4862829,
+      "pages": 42,
+      "pdf_sha256": "872f6aedc6400c4085ba787add2e59847910533613f7d15f0660c162068e4f0e",
+      "normalized_text_fingerprint": "bd5c30addcc7680ade34a88923a9e9f4ff1bb3174b9148d451c7f4b175bf5161",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_23_北京键凯科技",
+      "markdown_files": [
+        "txt\\第4批次_23_北京键凯科技.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_23_北京键凯科技_content_list.json",
+        "txt\\第4批次_23_北京键凯科技_content_list_v2.json",
+        "txt\\第4批次_23_北京键凯科技_middle.json",
+        "txt\\第4批次_23_北京键凯科技_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_23_北京键凯科技_origin.pdf"
+      ],
+      "markdown_chars": 29564,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "872f6aedc6400c4085ba787add2e59847910533613f7d15f0660c162068e4f0e",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 24,
+      "company": "东吴证券",
+      "ticker": "601555.SH",
+      "year": "2024",
+      "title": "东吴证券2024年度可持续发展报告",
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-04-26/5d570d2a21b411f0a21efa163e957f7a.pdf",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:05:23+08:00",
+      "local_filename": "第4批次_24_东吴证券.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_24_东吴证券.pdf",
+      "file_size_bytes": 11849314,
+      "pages": 62,
+      "pdf_sha256": "b8b6a2246672ed4a94b9adcea90180428b8b79e907820495645a70b89ec0c22d",
+      "normalized_text_fingerprint": "3a3b7afdeee06e4b8ed17c874c5e8cb60ac735c4c0021d129265ce90a33ef4af",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_24_东吴证券",
+      "markdown_files": [
+        "txt\\第4批次_24_东吴证券.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_24_东吴证券_content_list.json",
+        "txt\\第4批次_24_东吴证券_content_list_v2.json",
+        "txt\\第4批次_24_东吴证券_middle.json",
+        "txt\\第4批次_24_东吴证券_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_24_东吴证券_origin.pdf"
+      ],
+      "markdown_chars": 74528,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "b8b6a2246672ed4a94b9adcea90180428b8b79e907820495645a70b89ec0c22d",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 25,
+      "company": "中国长江电力",
+      "ticker": "600900.SH",
+      "year": "2024",
+      "title": "长江电力2024年度环境社会和治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223421180.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:06:04+08:00",
+      "local_filename": "第4批次_25_中国长江电力.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_25_中国长江电力.pdf",
+      "file_size_bytes": 1754021,
+      "pages": 131,
+      "pdf_sha256": "5e5369fd0643d228299ef51bf79a218750a6fb9d22f0068ead477747f02461d1",
+      "normalized_text_fingerprint": "ae5ce052a2fad0001a00773e6b6d2b2b8a8ef51b23a2027b08514ad4a29855b7",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_25_中国长江电力",
+      "markdown_files": [
+        "txt\\第4批次_25_中国长江电力.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_25_中国长江电力_content_list.json",
+        "txt\\第4批次_25_中国长江电力_content_list_v2.json",
+        "txt\\第4批次_25_中国长江电力_middle.json",
+        "txt\\第4批次_25_中国长江电力_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_25_中国长江电力_origin.pdf"
+      ],
+      "markdown_chars": 63412,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "5e5369fd0643d228299ef51bf79a218750a6fb9d22f0068ead477747f02461d1",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 26,
+      "company": "圣元环保",
+      "ticker": "300867.SZ",
+      "year": "2024",
+      "title": "圣元环保2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223125050.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:06:54+08:00",
+      "local_filename": "第4批次_26_圣元环保.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_26_圣元环保.pdf",
+      "file_size_bytes": 6454233,
+      "pages": 41,
+      "pdf_sha256": "998bb1c8118d42b972c519a87c2af170ff7498c43d214a438e7e8e0185d90ff9",
+      "normalized_text_fingerprint": "c723c9dd514d0559064ec4fcf00f1ee7bdca387d1a4a3d92419675a298c51a69",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_26_圣元环保",
+      "markdown_files": [
+        "txt\\第4批次_26_圣元环保.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_26_圣元环保_content_list.json",
+        "txt\\第4批次_26_圣元环保_content_list_v2.json",
+        "txt\\第4批次_26_圣元环保_middle.json",
+        "txt\\第4批次_26_圣元环保_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_26_圣元环保_origin.pdf"
+      ],
+      "markdown_chars": 42363,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "998bb1c8118d42b972c519a87c2af170ff7498c43d214a438e7e8e0185d90ff9",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 27,
+      "company": "恒生电子",
+      "ticker": "600570.SH",
+      "year": "2024",
+      "title": "恒生电子2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-12/1223072557.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:07:15+08:00",
+      "local_filename": "第4批次_27_恒生电子.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_27_恒生电子.pdf",
+      "file_size_bytes": 909409,
+      "pages": 38,
+      "pdf_sha256": "fbe52c9d8235e55e1e7cd1fb08678cfa9f2117b0f6711ce3ed328787a3d0e40a",
+      "normalized_text_fingerprint": "fd0ed0590ab1a4f0136bd39c2278c89f92a99ec48184f7599b1fc2916bd330af",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_27_恒生电子",
+      "markdown_files": [
+        "txt\\第4批次_27_恒生电子.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_27_恒生电子_content_list.json",
+        "txt\\第4批次_27_恒生电子_content_list_v2.json",
+        "txt\\第4批次_27_恒生电子_middle.json",
+        "txt\\第4批次_27_恒生电子_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_27_恒生电子_origin.pdf"
+      ],
+      "markdown_chars": 21356,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "fbe52c9d8235e55e1e7cd1fb08678cfa9f2117b0f6711ce3ed328787a3d0e40a",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 28,
+      "company": "中远海运特种运输",
+      "ticker": "600428.SH",
+      "year": "2024",
+      "title": "中远海运特种运输股份有限公司2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928601.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:07:23+08:00",
+      "local_filename": "第4批次_28_中远海运特种运输.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_28_中远海运特种运输.pdf",
+      "file_size_bytes": 172498,
+      "pages": 4,
+      "pdf_sha256": "b24301dc33966c63e39d3b4531fa312aa152311287a056d6ef5d97b8af8cf438",
+      "normalized_text_fingerprint": "4472a3c6a34eb324da917180bb4315f5283c093c74629909a4ab7076181c302c",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_28_中远海运特种运输",
+      "markdown_files": [
+        "txt\\第4批次_28_中远海运特种运输.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_28_中远海运特种运输_content_list.json",
+        "txt\\第4批次_28_中远海运特种运输_content_list_v2.json",
+        "txt\\第4批次_28_中远海运特种运输_middle.json",
+        "txt\\第4批次_28_中远海运特种运输_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_28_中远海运特种运输_origin.pdf"
+      ],
+      "markdown_chars": 1941,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "b24301dc33966c63e39d3b4531fa312aa152311287a056d6ef5d97b8af8cf438",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 29,
+      "company": "格林美",
+      "ticker": "002340.SZ",
+      "year": "2024",
+      "title": "格林美2024年可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223332830.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:07:29+08:00",
+      "local_filename": "第4批次_29_格林美.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_29_格林美.pdf",
+      "file_size_bytes": 14641768,
+      "pages": 70,
+      "pdf_sha256": "9cebb345a4a5b0341b1be0e6b2a46b54a5fd0e84e1c860d255c6e98e321c6e2c",
+      "normalized_text_fingerprint": "049230694c8d90124f46b0e38634b8feb0efa0f9e4542722bbf547ee9e81b898",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_29_格林美",
+      "markdown_files": [
+        "txt\\第4批次_29_格林美.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_29_格林美_content_list.json",
+        "txt\\第4批次_29_格林美_content_list_v2.json",
+        "txt\\第4批次_29_格林美_middle.json",
+        "txt\\第4批次_29_格林美_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_29_格林美_origin.pdf"
+      ],
+      "markdown_chars": 108251,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "9cebb345a4a5b0341b1be0e6b2a46b54a5fd0e84e1c860d255c6e98e321c6e2c",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 30,
+      "company": "振华新材",
+      "ticker": "688707.SH",
+      "year": "2024",
+      "title": "振华新材2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223316911.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:08:07+08:00",
+      "local_filename": "第4批次_30_振华新材.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_30_振华新材.pdf",
+      "file_size_bytes": 8305571,
+      "pages": 50,
+      "pdf_sha256": "25181947395cfe9da4091ff9ea66e531a28544fd907ccd98429a601364bfab9f",
+      "normalized_text_fingerprint": "ff88bf8a2a6afc6cb451e848f601981fc0f5fea591ec50c09152690e5a37ea20",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_30_振华新材",
+      "markdown_files": [
+        "txt\\第4批次_30_振华新材.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_30_振华新材_content_list.json",
+        "txt\\第4批次_30_振华新材_content_list_v2.json",
+        "txt\\第4批次_30_振华新材_middle.json",
+        "txt\\第4批次_30_振华新材_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_30_振华新材_origin.pdf"
+      ],
+      "markdown_chars": 56209,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "25181947395cfe9da4091ff9ea66e531a28544fd907ccd98429a601364bfab9f",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 31,
+      "company": "华瑞股份",
+      "ticker": "300626.SZ",
+      "year": "2024",
+      "title": "华瑞股份2024年度社会责任报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223411304.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:08:40+08:00",
+      "local_filename": "第4批次_31_华瑞股份.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_31_华瑞股份.pdf",
+      "file_size_bytes": 1334237,
+      "pages": 22,
+      "pdf_sha256": "71ef56c561c4b71b31279d8445e7aa6b2a2e4038030037bb602a2ef83e350e71",
+      "normalized_text_fingerprint": "283a67cd363bdad82f4db86e89ae27301e092d7ff32302cae288e433c916247d",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_31_华瑞股份",
+      "markdown_files": [
+        "txt\\第4批次_31_华瑞股份.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_31_华瑞股份_content_list.json",
+        "txt\\第4批次_31_华瑞股份_content_list_v2.json",
+        "txt\\第4批次_31_华瑞股份_middle.json",
+        "txt\\第4批次_31_华瑞股份_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_31_华瑞股份_origin.pdf"
+      ],
+      "markdown_chars": 17193,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "71ef56c561c4b71b31279d8445e7aa6b2a2e4038030037bb602a2ef83e350e71",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 32,
+      "company": "寒武纪",
+      "ticker": "688256.SH",
+      "year": "2024",
+      "title": "寒武纪2024年度环境、社会和公司治理报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155699.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:08:55+08:00",
+      "local_filename": "第4批次_32_寒武纪.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_32_寒武纪.pdf",
+      "file_size_bytes": 9627965,
+      "pages": 44,
+      "pdf_sha256": "b16aabaa08861b9933b798d11de76870989777426def4d4e01ba4602b13fd29b",
+      "normalized_text_fingerprint": "1a0291a668c5c0ae5f04ea34ebc3336ba7038eb6d3b0ff4e9f29d76ce7121ee3",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_32_寒武纪",
+      "markdown_files": [
+        "txt\\第4批次_32_寒武纪.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_32_寒武纪_content_list.json",
+        "txt\\第4批次_32_寒武纪_content_list_v2.json",
+        "txt\\第4批次_32_寒武纪_middle.json",
+        "txt\\第4批次_32_寒武纪_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_32_寒武纪_origin.pdf"
+      ],
+      "markdown_chars": 39025,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "b16aabaa08861b9933b798d11de76870989777426def4d4e01ba4602b13fd29b",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 33,
+      "company": "潞安环能",
+      "ticker": "601699.SH",
+      "year": "2024",
+      "title": "潞安环能2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223390438.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:09:25+08:00",
+      "local_filename": "第4批次_33_潞安环能.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_33_潞安环能.pdf",
+      "file_size_bytes": 12864413,
+      "pages": 34,
+      "pdf_sha256": "b318fed535526a25c86ebd65821c258d08fe1073fb4cb1de0835bc8fbf51e346",
+      "normalized_text_fingerprint": "c90f12803551db727981b57ed130c520f384986d1fd341ac2bfe0d3c80b8e09e",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_33_潞安环能",
+      "markdown_files": [
+        "txt\\第4批次_33_潞安环能.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_33_潞安环能_content_list.json",
+        "txt\\第4批次_33_潞安环能_content_list_v2.json",
+        "txt\\第4批次_33_潞安环能_middle.json",
+        "txt\\第4批次_33_潞安环能_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_33_潞安环能_origin.pdf"
+      ],
+      "markdown_chars": 35766,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "b318fed535526a25c86ebd65821c258d08fe1073fb4cb1de0835bc8fbf51e346",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 34,
+      "company": "合盛硅业",
+      "ticker": "603260.SH",
+      "year": "2024",
+      "title": "合盛硅业2024年度可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223239277.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:10:08+08:00",
+      "local_filename": "第4批次_34_合盛硅业.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_34_合盛硅业.pdf",
+      "file_size_bytes": 12166937,
+      "pages": 44,
+      "pdf_sha256": "0477e08ebe2ef165f50f871abdbb56593c0bda352485c3004599b5f74365c525",
+      "normalized_text_fingerprint": "0ec36424216c2be25d34e379124ded1c2bb12c8138f222bbc60656f4c63e3793",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_34_合盛硅业",
+      "markdown_files": [
+        "txt\\第4批次_34_合盛硅业.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_34_合盛硅业_content_list.json",
+        "txt\\第4批次_34_合盛硅业_content_list_v2.json",
+        "txt\\第4批次_34_合盛硅业_middle.json",
+        "txt\\第4批次_34_合盛硅业_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_34_合盛硅业_origin.pdf"
+      ],
+      "markdown_chars": 53849,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "0477e08ebe2ef165f50f871abdbb56593c0bda352485c3004599b5f74365c525",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 35,
+      "company": "海南航空",
+      "ticker": "600221.SH",
+      "year": "2024",
+      "title": "海南航空控股2024年可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223419509.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:10:50+08:00",
+      "local_filename": "第4批次_35_海南航空.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_35_海南航空.pdf",
+      "file_size_bytes": 9074038,
+      "pages": 54,
+      "pdf_sha256": "a6999bb809393ec62a9528d90ecfa036b46f1d173fe20fe8ae2d0decbf9b9bb3",
+      "normalized_text_fingerprint": "060887113b2cf9317016a2adc63332682ed610ddbd36e66a67cdb93b1f2fb602",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_35_海南航空",
+      "markdown_files": [
+        "txt\\第4批次_35_海南航空.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_35_海南航空_content_list.json",
+        "txt\\第4批次_35_海南航空_content_list_v2.json",
+        "txt\\第4批次_35_海南航空_middle.json",
+        "txt\\第4批次_35_海南航空_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_35_海南航空_origin.pdf"
+      ],
+      "markdown_chars": 61688,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "a6999bb809393ec62a9528d90ecfa036b46f1d173fe20fe8ae2d0decbf9b9bb3",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 36,
+      "company": "华阳股份",
+      "ticker": "600348.SH",
+      "year": "2024",
+      "title": "华阳股份2024年度环境、社会及公司治理（ESG）报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223325381.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:11:19+08:00",
+      "local_filename": "第4批次_36_华阳股份.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_36_华阳股份.pdf",
+      "file_size_bytes": 20167502,
+      "pages": 47,
+      "pdf_sha256": "9ce8734a1d9b7b3027d3004a9e59e121085af2774449eb8477a334f80dac1fb4",
+      "normalized_text_fingerprint": "f43bffb02a0c66dec1214e2c9bea7243b686897ab8c9a3f761017eb75d1ac0b7",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_36_华阳股份",
+      "markdown_files": [
+        "txt\\第4批次_36_华阳股份.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_36_华阳股份_content_list.json",
+        "txt\\第4批次_36_华阳股份_content_list_v2.json",
+        "txt\\第4批次_36_华阳股份_middle.json",
+        "txt\\第4批次_36_华阳股份_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_36_华阳股份_origin.pdf"
+      ],
+      "markdown_chars": 50138,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "9ce8734a1d9b7b3027d3004a9e59e121085af2774449eb8477a334f80dac1fb4",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 37,
+      "company": "中海油能源发展",
+      "ticker": "600968.SH",
+      "year": "2024",
+      "title": "中海油能源发展2024年可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223047058.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:12:37+08:00",
+      "local_filename": "第4批次_37_中海油能源发展.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_37_中海油能源发展.pdf",
+      "file_size_bytes": 26572624,
+      "pages": 63,
+      "pdf_sha256": "0554fb2d93b31ec28e6939766a691c820a5cf309a370bbe34ef39af5baf596ac",
+      "normalized_text_fingerprint": "a859c2751022b4baafb2423dfd60a1c06744cf90a156031d1bc1781835e72072",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_37_中海油能源发展",
+      "markdown_files": [
+        "txt\\第4批次_37_中海油能源发展.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_37_中海油能源发展_content_list.json",
+        "txt\\第4批次_37_中海油能源发展_content_list_v2.json",
+        "txt\\第4批次_37_中海油能源发展_middle.json",
+        "txt\\第4批次_37_中海油能源发展_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_37_中海油能源发展_origin.pdf"
+      ],
+      "markdown_chars": 59646,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "0554fb2d93b31ec28e6939766a691c820a5cf309a370bbe34ef39af5baf596ac",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 38,
+      "company": "宝钢股份",
+      "ticker": "600019.SH",
+      "year": "2024",
+      "title": "宝山钢铁2024可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223329096.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:13:40+08:00",
+      "local_filename": "第4批次_38_宝钢股份.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_38_宝钢股份.pdf",
+      "file_size_bytes": 42195727,
+      "pages": 90,
+      "pdf_sha256": "ddaab24226ef441abc5acb6af96ea036e7e016bc1bc41bd12bc9dcb14ca687e4",
+      "normalized_text_fingerprint": "6135557a5a5714075226d90c5b4ed1765d2c8760c36fc6f469e9faedb7765deb",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_38_宝钢股份",
+      "markdown_files": [
+        "txt\\第4批次_38_宝钢股份.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_38_宝钢股份_content_list.json",
+        "txt\\第4批次_38_宝钢股份_content_list_v2.json",
+        "txt\\第4批次_38_宝钢股份_middle.json",
+        "txt\\第4批次_38_宝钢股份_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_38_宝钢股份_origin.pdf"
+      ],
+      "markdown_chars": 116643,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "ddaab24226ef441abc5acb6af96ea036e7e016bc1bc41bd12bc9dcb14ca687e4",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 39,
+      "company": "海尔生物",
+      "ticker": "688139.SH",
+      "year": "2024",
+      "title": "海尔生物2024可持续发展报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951707.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:14:36+08:00",
+      "local_filename": "第4批次_39_海尔生物.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_39_海尔生物.pdf",
+      "file_size_bytes": 23969263,
+      "pages": 65,
+      "pdf_sha256": "c2154671ec0ba5cf41027e1f1840ef24dec8ebe32fcf2cb77cf802afee57cdab",
+      "normalized_text_fingerprint": "4e0667ee66c2eb681110048a4bdf91611caa270e589074d508b0a4f83ea4ca3f",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_39_海尔生物",
+      "markdown_files": [
+        "txt\\第4批次_39_海尔生物.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_39_海尔生物_content_list.json",
+        "txt\\第4批次_39_海尔生物_content_list_v2.json",
+        "txt\\第4批次_39_海尔生物_middle.json",
+        "txt\\第4批次_39_海尔生物_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_39_海尔生物_origin.pdf"
+      ],
+      "markdown_chars": 88502,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "c2154671ec0ba5cf41027e1f1840ef24dec8ebe32fcf2cb77cf802afee57cdab",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 40,
+      "company": "中信博",
+      "ticker": "688408.SH",
+      "year": "2024",
+      "title": "中信博2024年度环境、社会及公司治理（ESG）报告",
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-04-30/6ebd104e25e511f08686fa163e957f7a.pdf",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:16:36+08:00",
+      "local_filename": "第4批次_40_中信博.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_40_中信博.pdf",
+      "file_size_bytes": 62065029,
+      "pages": 95,
+      "pdf_sha256": "a2265f45047e2db3240e48a85569b53d806d02ef3c43cb6c3d81dae4cd4104ae",
+      "normalized_text_fingerprint": "d4290263b5e567b1e4122574975f2936e745099b0fb15b2df99b91a21c42734c",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_40_中信博",
+      "markdown_files": [
+        "txt\\第4批次_40_中信博.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_40_中信博_content_list.json",
+        "txt\\第4批次_40_中信博_content_list_v2.json",
+        "txt\\第4批次_40_中信博_middle.json",
+        "txt\\第4批次_40_中信博_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_40_中信博_origin.pdf"
+      ],
+      "markdown_chars": 101767,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "a2265f45047e2db3240e48a85569b53d806d02ef3c43cb6c3d81dae4cd4104ae",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 41,
+      "company": "步科股份",
+      "ticker": "688160.SH",
+      "year": "2024",
+      "title": "步科股份2024年度环境、社会与公司治理（ESG）报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223281749.PDF",
+      "source_type": "CNINFO",
+      "download_time": "2026-08-31T13:18:04+08:00",
+      "local_filename": "第4批次_41_步科股份.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_41_步科股份.pdf",
+      "file_size_bytes": 4992360,
+      "pages": 51,
+      "pdf_sha256": "ded8bc31b8605563e0122cfc95e4772fba9ab27fba499194a1a8b1316106eb20",
+      "normalized_text_fingerprint": "2f0112593ce9070faedd40e7695456b76f9b52ffbb107a24f0ad75028beb0409",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_41_步科股份",
+      "markdown_files": [
+        "txt\\第4批次_41_步科股份.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_41_步科股份_content_list.json",
+        "txt\\第4批次_41_步科股份_content_list_v2.json",
+        "txt\\第4批次_41_步科股份_middle.json",
+        "txt\\第4批次_41_步科股份_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_41_步科股份_origin.pdf"
+      ],
+      "markdown_chars": 29723,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "ded8bc31b8605563e0122cfc95e4772fba9ab27fba499194a1a8b1316106eb20",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 42,
+      "company": "中国银行",
+      "ticker": "601988.SH",
+      "year": "2024",
+      "title": "中国银行2024年度社会责任报告",
+      "source_url": "https://www.boc.cn/aboutboc/boccsr/202503/P020250326687626261152.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:18:18+08:00",
+      "local_filename": "第4批次_42_中国银行.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_42_中国银行.pdf",
+      "file_size_bytes": 14235365,
+      "pages": 73,
+      "pdf_sha256": "1b77419c9ccf7036e69722b357a435de4981e85b45bbcb760f6ffe3831faf3ae",
+      "normalized_text_fingerprint": "87dd9c271a16052c8663aece8664dbeada547e2c7338b6ae04209ec657a2c69f",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_42_中国银行",
+      "markdown_files": [
+        "txt\\第4批次_42_中国银行.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_42_中国银行_content_list.json",
+        "txt\\第4批次_42_中国银行_content_list_v2.json",
+        "txt\\第4批次_42_中国银行_middle.json",
+        "txt\\第4批次_42_中国银行_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_42_中国银行_origin.pdf"
+      ],
+      "markdown_chars": 108631,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "1b77419c9ccf7036e69722b357a435de4981e85b45bbcb760f6ffe3831faf3ae",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 43,
+      "company": "招商银行",
+      "ticker": "600036.SH",
+      "year": "2024",
+      "title": "招商银行2024年度可持续发展报告",
+      "source_url": "https://s3gw.cmbimg.com/lb5001-cmbweb-prd-1255000097/cmbcms/20250327/7b625cd4-1e12-4244-9512-5a9895dc84e7.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:18:20+08:00",
+      "local_filename": "第4批次_43_招商银行.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_43_招商银行.pdf",
+      "file_size_bytes": 8992745,
+      "pages": 149,
+      "pdf_sha256": "772400c9e9dd5c1413f1bab708cc00d9279a3bbe264fea317f2405a8a269479b",
+      "normalized_text_fingerprint": "3fc0d9358b128b72260b567eb200889e2a62fb8b3fab319c3de4189baf4d78cc",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_43_招商银行",
+      "markdown_files": [
+        "txt\\第4批次_43_招商银行.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_43_招商银行_content_list.json",
+        "txt\\第4批次_43_招商银行_content_list_v2.json",
+        "txt\\第4批次_43_招商银行_middle.json",
+        "txt\\第4批次_43_招商银行_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_43_招商银行_origin.pdf"
+      ],
+      "markdown_chars": 136080,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "772400c9e9dd5c1413f1bab708cc00d9279a3bbe264fea317f2405a8a269479b",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 44,
+      "company": "中国光大银行",
+      "ticker": "601818.SH",
+      "year": "2024",
+      "title": "中国光大银行2024年度可持续发展报告",
+      "source_url": "https://static.cebbank.com/site/resource/cms/article/256479545/335485056/2025040216393373044.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:18:23+08:00",
+      "local_filename": "第4批次_44_中国光大银行.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_44_中国光大银行.pdf",
+      "file_size_bytes": 17980194,
+      "pages": 67,
+      "pdf_sha256": "9c2c92681f97c75e181ae35c30a182cf4c786108127bd58e1412cf3ee73312d1",
+      "normalized_text_fingerprint": "121cd69c447935866bd2eeb58bbf83276cd39495df1f5aae1f1e867ebc5d0570",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_44_中国光大银行",
+      "markdown_files": [
+        "txt\\第4批次_44_中国光大银行.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_44_中国光大银行_content_list.json",
+        "txt\\第4批次_44_中国光大银行_content_list_v2.json",
+        "txt\\第4批次_44_中国光大银行_middle.json",
+        "txt\\第4批次_44_中国光大银行_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_44_中国光大银行_origin.pdf"
+      ],
+      "markdown_chars": 83452,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "9c2c92681f97c75e181ae35c30a182cf4c786108127bd58e1412cf3ee73312d1",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 45,
+      "company": "中国移动",
+      "ticker": "600941.SH",
+      "year": "2024",
+      "title": "中国移动2024年度可持续发展报告",
+      "source_url": "https://www.chinamobileltd.com/sc/ir/reports/sd2024_ashare.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:18:38+08:00",
+      "local_filename": "第4批次_45_中国移动.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_45_中国移动.pdf",
+      "file_size_bytes": 19211203,
+      "pages": 122,
+      "pdf_sha256": "be39f9811099e337003bc30ea5248ce3cfdafb7e439cf7c9b68c79db7977c2c1",
+      "normalized_text_fingerprint": "139ccb9a89562c6a4c233be9a74ad4115858a1ad737817a62d6e49b85d0a34fd",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_45_中国移动",
+      "markdown_files": [
+        "txt\\第4批次_45_中国移动.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_45_中国移动_content_list.json",
+        "txt\\第4批次_45_中国移动_content_list_v2.json",
+        "txt\\第4批次_45_中国移动_middle.json",
+        "txt\\第4批次_45_中国移动_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_45_中国移动_origin.pdf"
+      ],
+      "markdown_chars": 110273,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "be39f9811099e337003bc30ea5248ce3cfdafb7e439cf7c9b68c79db7977c2c1",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 46,
+      "company": "中国联通",
+      "ticker": "600050.SH",
+      "year": "2024",
+      "title": "中国联通2024年度可持续发展报告",
+      "source_url": "https://www.chinaunicom.com.hk/tc/esg/reports/csr2024.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:18:45+08:00",
+      "local_filename": "第4批次_46_中国联通.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_46_中国联通.pdf",
+      "file_size_bytes": 12170319,
+      "pages": 100,
+      "pdf_sha256": "df8d256903a544488bad83cc6ba8640c667c40b46876f5656e664f1622fd9055",
+      "normalized_text_fingerprint": "63bfbfee3641177bcb23c24c88ae0fd28f93a298e63b5d46002415509c59eb1d",
+      "mineru_parse_method": "pipeline-ocr",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_46_中国联通",
+      "markdown_files": [
+        "ocr\\第4批次_46_中国联通.md"
+      ],
+      "json_files": [
+        "ocr\\第4批次_46_中国联通_content_list.json",
+        "ocr\\第4批次_46_中国联通_content_list_v2.json",
+        "ocr\\第4批次_46_中国联通_middle.json",
+        "ocr\\第4批次_46_中国联通_model.json"
+      ],
+      "origin_files": [
+        "ocr\\第4批次_46_中国联通_origin.pdf"
+      ],
+      "markdown_chars": 88453,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "df8d256903a544488bad83cc6ba8640c667c40b46876f5656e664f1622fd9055",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 47,
+      "company": "中国建筑",
+      "ticker": "601668.SH",
+      "year": "2024",
+      "title": "中国建筑2024年度环境社会治理可持续发展报告",
+      "source_url": "https://www.cscec.com/tzzgxnew/tzgg_new/2025/202504/P020250416521921577244.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:19:01+08:00",
+      "local_filename": "第4批次_47_中国建筑.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_47_中国建筑.pdf",
+      "file_size_bytes": 7255756,
+      "pages": 50,
+      "pdf_sha256": "8c9156c3707d92810197a44d9b828889d6a80663e30e97642ee66413f48a4df5",
+      "normalized_text_fingerprint": "7fd9b78088b47cc0269bfbed812141f46d9ddae8d247c01bf5c14851415363aa",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_47_中国建筑",
+      "markdown_files": [
+        "txt\\第4批次_47_中国建筑.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_47_中国建筑_content_list.json",
+        "txt\\第4批次_47_中国建筑_content_list_v2.json",
+        "txt\\第4批次_47_中国建筑_middle.json",
+        "txt\\第4批次_47_中国建筑_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_47_中国建筑_origin.pdf"
+      ],
+      "markdown_chars": 73433,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "8c9156c3707d92810197a44d9b828889d6a80663e30e97642ee66413f48a4df5",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 48,
+      "company": "长城汽车",
+      "ticker": "601633.SH",
+      "year": "2024",
+      "title": "长城汽车2024年度可持续发展报告",
+      "source_url": "https://res.gwm.com.cn/GwmCn/files/social/GWM_2024.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:19:03+08:00",
+      "local_filename": "第4批次_48_长城汽车.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_48_长城汽车.pdf",
+      "file_size_bytes": 11903297,
+      "pages": 107,
+      "pdf_sha256": "65b953e65b723c06e6da29a84fab011698193ca178021b4ab06fab4a33fb7a7d",
+      "normalized_text_fingerprint": "bd6ad26492c97e429e59257e45d8c2c4cfd19a9c56e922e18fd2eb23913dc62c",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_48_长城汽车",
+      "markdown_files": [
+        "txt\\第4批次_48_长城汽车.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_48_长城汽车_content_list.json",
+        "txt\\第4批次_48_长城汽车_content_list_v2.json",
+        "txt\\第4批次_48_长城汽车_middle.json",
+        "txt\\第4批次_48_长城汽车_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_48_长城汽车_origin.pdf"
+      ],
+      "markdown_chars": 72808,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "65b953e65b723c06e6da29a84fab011698193ca178021b4ab06fab4a33fb7a7d",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 49,
+      "company": "宁德时代",
+      "ticker": "300750.SZ",
+      "year": "2024",
+      "title": "宁德时代2024年度可持续发展报告",
+      "source_url": "https://www.catl.com/uploads/1/file/public/202503/20250328110514_yhfqo19im4.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:19:19+08:00",
+      "local_filename": "第4批次_49_宁德时代.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_49_宁德时代.pdf",
+      "file_size_bytes": 20639434,
+      "pages": 83,
+      "pdf_sha256": "454d92e988f06c61dbd15064f76d2a53320201845ab169873b97712c2db76e9a",
+      "normalized_text_fingerprint": "b2b7c1df39439eaf03a0192895ac15dbe9ca8284c7dbb852f692c5bbb1e605ca",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_49_宁德时代",
+      "markdown_files": [
+        "txt\\第4批次_49_宁德时代.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_49_宁德时代_content_list.json",
+        "txt\\第4批次_49_宁德时代_content_list_v2.json",
+        "txt\\第4批次_49_宁德时代_middle.json",
+        "txt\\第4批次_49_宁德时代_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_49_宁德时代_origin.pdf"
+      ],
+      "markdown_chars": 99850,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "454d92e988f06c61dbd15064f76d2a53320201845ab169873b97712c2db76e9a",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    },
+    {
+      "sequence": 50,
+      "company": "隆基绿能",
+      "ticker": "601012.SH",
+      "year": "2024",
+      "title": "隆基绿能2024年度可持续发展报告",
+      "source_url": "https://static.longi.com/2024_cef84c9a76.pdf",
+      "source_type": "公司官网",
+      "download_time": "2026-08-31T13:19:29+08:00",
+      "local_filename": "第4批次_50_隆基绿能.pdf",
+      "input_path": "E:\\Pioneer\\819\\02_数据与解析\\第4批次\\第4批次_50_隆基绿能.pdf",
+      "file_size_bytes": 28939368,
+      "pages": 163,
+      "pdf_sha256": "592a436edde82326822147f636788166bd7c65d3f32168e07edca9b4caa155d2",
+      "normalized_text_fingerprint": "85e94b7f2e4eb5221c55cdebeadb3ab219ea5577c7336b9230532f217f78a98e",
+      "mineru_parse_method": "pipeline-txt",
+      "mineru_parse_status": "success_reused",
+      "output_dir": "E:\\Pioneer\\819\\02_数据与解析\\第4批次_解析结果\\第4批次_50_隆基绿能",
+      "markdown_files": [
+        "txt\\第4批次_50_隆基绿能.md"
+      ],
+      "json_files": [
+        "txt\\第4批次_50_隆基绿能_content_list.json",
+        "txt\\第4批次_50_隆基绿能_content_list_v2.json",
+        "txt\\第4批次_50_隆基绿能_middle.json",
+        "txt\\第4批次_50_隆基绿能_model.json"
+      ],
+      "origin_files": [
+        "txt\\第4批次_50_隆基绿能_origin.pdf"
+      ],
+      "markdown_chars": 130603,
+      "json_parse_errors": [],
+      "zero_byte_files": [],
+      "origin_pdf_sha256": "592a436edde82326822147f636788166bd7c65d3f32168e07edca9b4caa155d2",
+      "year_verified": true,
+      "keyword_verified": true,
+      "errors": [],
+      "valid": true
+    }
+  ]
+}
