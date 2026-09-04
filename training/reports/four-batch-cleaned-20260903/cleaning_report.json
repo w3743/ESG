@@ -1,0 +1,187 @@
+{
+  "run_id": "four-batches-cleaned-20260903",
+  "created_at": "2026-09-03",
+  "rule": "Normalize Unicode NFKC and remove whitespace for content identity; when the same content occurs in multiple batches, keep the larger batch. Within one batch, prefer test over validation over train for identical duplicate rows. If the highest batch has conflicting answers, exclude the whole content group for review.",
+  "batch_selection": {
+    "A": {
+      "1": "Dataset-A_文本拆分",
+      "2": "Dataset-A_v2.2",
+      "3": "Dataset-A_v3.3",
+      "4": "Dataset-A_v4.0"
+    },
+    "B": {
+      "1": "Dataset-B_v0.2_gold_plus_silver",
+      "2": "Dataset-B_v1.0",
+      "3": "Dataset-B_v3.2_sai_binary",
+      "4": "Dataset-B_v4.0_sai_binary"
+    }
+  },
+  "source_inventory": {
+    "A": [
+      {
+        "batch": 1,
+        "source_tag": "A1",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\Dataset-A_文本拆分\\sft",
+        "counts": {
+          "train": 957,
+          "validation": 83,
+          "test": 168
+        }
+      },
+      {
+        "batch": 2,
+        "source_tag": "A2",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\Dataset-A_v2.2_Gold_第2批_闭环扩充_30报告_文本拆分\\sft",
+        "counts": {
+          "train": 1670,
+          "validation": 213,
+          "test": 197
+        }
+      },
+      {
+        "batch": 3,
+        "source_tag": "A3",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\第三次拆分集_Dataset-A_v3.3_SAI导向终态_20260901\\sft",
+        "counts": {
+          "train": 5711,
+          "validation": 1827,
+          "test": 2014
+        }
+      },
+      {
+        "batch": 4,
+        "source_tag": "A4",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\第四批次_Gold_拆分集_Dataset-A_v4.0_20260901\\sft",
+        "counts": {
+          "train": 2424,
+          "validation": 863,
+          "test": 598
+        }
+      }
+    ],
+    "B": [
+      {
+        "batch": 1,
+        "source_tag": "B1",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\Dataset-B_ESG分类\\Dataset-B_v0.2_gold_plus_silver_all.jsonl",
+        "kind": "raw",
+        "counts": {
+          "train": 904,
+          "validation": 68,
+          "test": 144
+        }
+      },
+      {
+        "batch": 2,
+        "source_tag": "B2",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\Dataset-B_v1.0_30报告_Luna双盲分类\\Dataset-B_v1.0_Gold_all.jsonl",
+        "kind": "raw",
+        "counts": {
+          "train": 3112,
+          "validation": 346,
+          "test": 325
+        }
+      },
+      {
+        "batch": 3,
+        "source_tag": "B3",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\第三次分类集_Dataset-B_v3.2_SAI导向_Gold_Silver_20260901\\sft\\sai_binary",
+        "kind": "sft",
+        "counts": {
+          "train": 2412,
+          "validation": 932,
+          "test": 826
+        }
+      },
+      {
+        "batch": 4,
+        "source_tag": "B4",
+        "path": "E:\\Pioneer\\819\\02_数据与解析\\正式训练集\\正式训练集\\第四批次_Gold_Silver_分类集_Dataset-B_v4.0_20260901\\sft\\sai_binary",
+        "kind": "sft",
+        "counts": {
+          "train": 765,
+          "validation": 187,
+          "test": 153
+        }
+      }
+    ]
+  },
+  "dataset_a": {
+    "domain": "A",
+    "raw_rows": 16725,
+    "unique_normalized_inputs": 16507,
+    "selected_rows": 16507,
+    "selected_by_batch": {
+      "1": 1093,
+      "2": 2027,
+      "3": 9506,
+      "4": 3881
+    },
+    "selected_by_split": {
+      "train": 10619,
+      "test": 2927,
+      "validation": 2961
+    },
+    "duplicate_groups": 215,
+    "duplicate_rows_removed": 218,
+    "same_highest_batch_conflict_groups_excluded": 0,
+    "excluded_rows": 0,
+    "split_overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_test": 0,
+      "validation_vs_test": 0
+    },
+    "split_overlap_keys": {
+      "train_vs_validation": [],
+      "train_vs_test": [],
+      "validation_vs_test": []
+    }
+  },
+  "dataset_b_sai": {
+    "domain": "B",
+    "raw_rows": 8618,
+    "unique_normalized_inputs": 8580,
+    "selected_rows": 8580,
+    "selected_by_batch": {
+      "1": 686,
+      "2": 2619,
+      "3": 4170,
+      "4": 1105
+    },
+    "selected_by_split": {
+      "train": 6042,
+      "validation": 1316,
+      "test": 1222
+    },
+    "duplicate_groups": 38,
+    "duplicate_rows_removed": 38,
+    "same_highest_batch_conflict_groups_excluded": 0,
+    "excluded_rows": 0,
+    "split_overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_test": 0,
+      "validation_vs_test": 0
+    },
+    "split_overlap_keys": {
+      "train_vs_validation": [],
+      "train_vs_test": [],
+      "validation_vs_test": []
+    },
+    "source_level_excluded": [],
+    "source_level_excluded_count": 0
+  },
+  "invariants": {
+    "a_train_validation_test_text_overlap": {
+      "train_vs_validation": 0,
+      "train_vs_test": 0,
+      "validation_vs_test": 0
+    },
+    "b_train_validation_test_text_overlap": {
+      "train_vs_validation": 0,
+      "train_vs_test": 0,
+      "validation_vs_test": 0
+    },
+    "original_data_overwritten": false,
+    "silver_in_b_validation_or_test": false
+  }
+}

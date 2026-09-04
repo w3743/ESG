@@ -9,3 +9,23 @@
 - `第4批次_README.md`：采集准入、MinerU 命令、GPU 运行和使用说明。
 
 本批次使用公司官网、CNINFO、上交所、深交所或港交所等正式披露来源；未启动模型训练、Arena 或分类评估。大型解析归档由 Git LFS 管理。
+
+## 已发布的微调模型
+
+当前发布的是基于 `Qwen2.5-1.5B-Instruct` 的两个独立 LoRA 适配器，不能单独替代底座模型：
+
+- [`models/qwen2.5-1.5b/esg-split`](models/qwen2.5-1.5b/esg-split)：A 模型，将企业报告段落拆分为事实陈述，输出 `{"statements":["..."]}`。
+- [`models/qwen2.5-1.5b/esg-sai`](models/qwen2.5-1.5b/esg-sai)：B-SAI 模型，判断单条 ESG 陈述是否 NonSpecific，输出 `{"non_specific":0}` 或 `{"non_specific":1}`。
+
+模型训练配置、清洗后的四批次数据和审计报告分别位于 `training/configs/`、`training/datasets/` 和 `training/reports/`。发布内容不包含训练检查点、优化器状态或本地临时日志。
+
+## 目录结构
+
+```text
+models/                         已训练模型及模型说明
+training/configs/               可复现训练配置
+training/datasets/              清洗后的训练、验证和测试 JSONL
+training/reports/               去重规则、审计记录和校验文件
+```
+
+权重文件由 Git LFS 管理。使用模型前请先获取 Qwen 基础模型，并遵守基础模型与数据来源的适用许可。
