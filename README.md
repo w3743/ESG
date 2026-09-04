@@ -3,7 +3,7 @@
 本仓库只接受两类交付物：
 
 - `models/`：可分发的模型文件及其最小运行元数据。
-- `pdf_text/`：PDF 经 MinerU 解析后的文字结果；只放 Markdown、JSON、TXT 和清单，不放原始 PDF、图片或版面 PDF。
+- `pdf_text/`：PDF 经 MinerU 直接解析后的文字结果；只放 Markdown/TXT，不放表格、元数据、原始 PDF、图片或版面 PDF。
 
 上传前必须阅读 [UPLOAD_CONSTRAINTS.md](UPLOAD_CONSTRAINTS.md)。本仓库采用“先解析、再验收、最后按白名单暂存”的发布流程。任何不属于 `models/` 或 `pdf_text/` 的业务文件都不得提交。
 
@@ -12,10 +12,9 @@
 ```text
 models/<model-id>/<variant>/
 pdf_text/batch-<NN>/<ticker>/
-pdf_text/manifests/batch-<NN>.tsv
 ```
 
-当前 `pdf_text/batch-04/` 是已整理的第 4 批次文字结果。第 5 批次解析完成并验收后，放入 `pdf_text/batch-05/`。
+每份报告目录只包含 `report.md`。当前 `pdf_text/batch-04/` 至 `pdf_text/batch-07/` 均为已解析文字结果；来源、去重和校验信息只在本地工作记录中维护，不作为仓库交付物。
 
 ## 版本策略
 

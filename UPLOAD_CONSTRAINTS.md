@@ -18,11 +18,10 @@
 
 ## 2. 文字结果结构
 
-每份报告必须使用以下结构：
+每份报告必须使用以下直接解析结构：
 
 pdf_text/batch-<NN>/<ticker>/
   report.md
-  manifest.json
 
 其中：
 
@@ -30,16 +29,16 @@ pdf_text/batch-<NN>/<ticker>/
 - <ticker> 使用证券代码和市场后缀，例如 600000.SH、000001.SZ、0700.HK。
 - 目录名直接使用证券代码，保留市场后缀和点号；不使用公司简称、下载时间或随机字符串。
 - 固定文件名用于自动校验；不得用下载时间、随机 UUID 或 final2 等临时后缀。
-- 批次清单统一放在 pdf_text/manifests/batch-<NN>.tsv。
+- 每个报告目录只保留 MinerU 直接生成的 `report.md`；不放 TSV、CSV、XLSX、JSON 或其他表格/元数据文件。
 
 ## 3. 内容准入
 
 每份报告进入仓库前必须满足：
 
 1. 证券代码和公司主体在目标批次内唯一，且与已发布批次交叉去重。
-2. 来源 URL、下载时间、报告年份、报告标题、PDF SHA-256 和规范化文本指纹记录在清单中。
+2. 来源 URL、下载时间、报告年份、报告标题、PDF SHA-256 和规范化文本指纹在本地验收记录中核对，不进入文字交付目录。
 3. 正文确认是目标年份的 ESG、可持续发展或社会责任报告。
-4. report.md 和 manifest.json 非空；manifest.json 可解析；核心文件不得为零字节。
+4. report.md 非空且可读；核心文件不得为零字节。
 5. 解析失败、空文本、年份不符、重复报告或无法验证来源的报告不得提交，必须修复或替换。
 6. pdf_text/ 中不得出现任何 PDF 或图片文件；解析结果不得夹带原始文件副本。
 
@@ -53,12 +52,12 @@ mineru -p <pdf> -o <output> -b pipeline -m txt -l ch -t false
 
 mineru -p <pdf> -o <output> -b pipeline -m ocr -l ch -t false
 
-验收时只复制文字交付物（Markdown 和来源清单），不要复制原始 PDF、MinerU 结构 JSON、图片、版面 PDF 或模型缓存。
+验收时只复制直接解析文字交付物（Markdown/TXT），不要复制表格清单、JSON 元数据、原始 PDF、MinerU 结构 JSON、图片、版面 PDF 或模型缓存。
 
 ## 5. Git/LFS 发布流程
 
 1. git fetch origin main，在最新远程 main 上建立隔离发布工作树。
-2. 运行文件扩展名、目录白名单、Markdown 非空、来源 manifest JSON 解析和清单唯一性检查。
+2. 运行文件扩展名、目录白名单和 Markdown 非空检查；来源、去重和唯一性在本地验收阶段完成。
 3. 只按明确路径 git add models/... pdf_text/... README.md UPLOAD_CONSTRAINTS.md .gitattributes .gitignore，禁止 git add .。
 4. 检查 git diff --cached --name-only，确认没有 PDF、图片、归档、训练文件或临时文件。
 5. 模型文件继续使用 Git LFS；解析文字保持普通 Git 文件，避免小文件 LFS 对象泛滥。
@@ -77,7 +76,7 @@ git ls-tree -r --name-only HEAD
 
 - 暂存路径全部属于白名单；
 - pdf_text/ 内 PDF、图片和归档数量为 0；仓库中不存在训练集、训练脚本或缓存；
-- 每个批次的报告数、公司数、代码数和文本指纹数符合清单；
-- Markdown 和来源 manifest 核心输出全部有效；
+- 每个批次有 50 个非空 Markdown 报告目录；
+- `pdf_text/` 中只有 Markdown/TXT 文字文件及目录说明；
 - GitHub 远程 main 与本次发布提交一致；
 - LFS 指针的 OID 与本地文件 SHA-256 一致。
