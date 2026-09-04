@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "300109.SZ",
+  "company": "新开源",
+  "report_year": "2024",
+  "report_title": "关于本报告 董事长致辞 走进新开源新开源医疗 2024 年度环境 、社 会 和 公 司 治 理（ESG) 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223143335.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:37:23+08:00",
+  "source_pdf_sha256": "7a959bb028daca984e1a34fe6f8800ef784c18d9c7924142692b7bfb10623944",
+  "normalized_text_fingerprint": "367c8a9bea553eb5d06b698eea0e8d38e90013d63d25ee45ee4a77b498f81802",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/300109.SZ",
+  "source_pdf_name": "第5批次_29_新开源.pdf"
+}

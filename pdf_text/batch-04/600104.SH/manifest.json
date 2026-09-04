@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "600104.SH",
+  "company": "上汽集团",
+  "report_year": "2024",
+  "report_title": "上汽集团2024年度环境社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223418973.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T12:15:07+08:00",
+  "source_pdf_sha256": "b0786c979dd21996b4a538f07fd20b024e54d383f2cc43e17d0516e1d8213b93",
+  "normalized_text_fingerprint": "ee5e658a1a3147b984289b3d8f3ab6baa365d49d7670956facc1c6794048611f",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

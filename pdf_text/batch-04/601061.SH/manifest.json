@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "601061.SH",
+  "company": "中信金属",
+  "report_year": "2024",
+  "report_title": "中信金属2024年度环境社会及治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223277566.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:03:52+08:00",
+  "source_pdf_sha256": "a500210efd68a9ba77b7b73135dfb60c89ce20b72ae098bfe54d28ef01e14a25",
+  "normalized_text_fingerprint": "f7456cf225fc5b40c41eb999a6cdbe0db36edf73a34f13292ee9d8db4a270776",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

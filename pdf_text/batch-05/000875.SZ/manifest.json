@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "000875.SZ",
+  "company": "电投绿能",
+  "report_year": "2024",
+  "report_title": "（ESG）报告》（以下简称“本报告”）。本报告主要披",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370820.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:18:15+08:00",
+  "source_pdf_sha256": "7261eb439961991b2cd1739ca139edde89aa544c28a5fef0b47b18a7f92c9146",
+  "normalized_text_fingerprint": "5342ff6f35c3c8418d2c7bf4e85ef453db22f8949ad256bbd1d587fb2f0aea84",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/000875.SZ",
+  "source_pdf_name": "第5批次_11_电投绿能.pdf"
+}

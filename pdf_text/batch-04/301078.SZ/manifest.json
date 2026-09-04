@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "301078.SZ",
+  "company": "孩子王",
+  "report_year": "2024",
+  "report_title": "孩子王2024年度环境社会及治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222990060.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T12:47:39+08:00",
+  "source_pdf_sha256": "80e79e45da02663f640b95d4b0e9f9888afcf8fc1d4b7072766bfc757412dde5",
+  "normalized_text_fingerprint": "8669118d26fd7fe8ca54c2f2502e6388c0152b8e4978463cdde2b3b738e6a309",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

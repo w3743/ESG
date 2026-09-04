@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "688256.SH",
+  "company": "寒武纪",
+  "report_year": "2024",
+  "report_title": "寒武纪2024年度环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155699.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:08:55+08:00",
+  "source_pdf_sha256": "b16aabaa08861b9933b798d11de76870989777426def4d4e01ba4602b13fd29b",
+  "normalized_text_fingerprint": "1a0291a668c5c0ae5f04ea34ebc3336ba7038eb6d3b0ff4e9f29d76ce7121ee3",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

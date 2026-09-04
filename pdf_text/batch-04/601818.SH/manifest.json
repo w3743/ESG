@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "601818.SH",
+  "company": "中国光大银行",
+  "report_year": "2024",
+  "report_title": "中国光大银行2024年度可持续发展报告",
+  "source_url": "https://static.cebbank.com/site/resource/cms/article/256479545/335485056/2025040216393373044.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-08-31T13:18:23+08:00",
+  "source_pdf_sha256": "9c2c92681f97c75e181ae35c30a182cf4c786108127bd58e1412cf3ee73312d1",
+  "normalized_text_fingerprint": "121cd69c447935866bd2eeb58bbf83276cd39495df1f5aae1f1e867ebc5d0570",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

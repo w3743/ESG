@@ -1,0 +1,18 @@
+# 本仓库只发布模型和 PDF 解析文字；其余本地输入、中间物和缓存一律忽略。
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.7z
+*.7z.*
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+__pycache__/
+.cache/
+tmp/
+pdf_text/**/content_list*.json
+pdf_text/**/middle.json
+pdf_text/**/model.json

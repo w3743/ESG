@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "688111.SH",
+  "company": "金山办公",
+  "report_year": "2024",
+  "report_title": "金山办公2024年可持续发展报告",
+  "source_url": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-20/688111_20250320_5T47.pdf",
+  "source_type": "上交所",
+  "download_time": "2026-08-31T12:58:44+08:00",
+  "source_pdf_sha256": "5da371ff81ff03c0fa7d14ffe30d304747a918f581ca1a81f9a5e61883f82a11",
+  "normalized_text_fingerprint": "c2937c4fd72fb6754677da1b20ad4675dddb6930942010ef2ad20fdf2a89adc0",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

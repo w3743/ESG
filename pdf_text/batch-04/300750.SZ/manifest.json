@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "300750.SZ",
+  "company": "宁德时代",
+  "report_year": "2024",
+  "report_title": "宁德时代2024年度可持续发展报告",
+  "source_url": "https://www.catl.com/uploads/1/file/public/202503/20250328110514_yhfqo19im4.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-08-31T13:19:19+08:00",
+  "source_pdf_sha256": "454d92e988f06c61dbd15064f76d2a53320201845ab169873b97712c2db76e9a",
+  "normalized_text_fingerprint": "b2b7c1df39439eaf03a0192895ac15dbe9ca8284c7dbb852f692c5bbb1e605ca",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

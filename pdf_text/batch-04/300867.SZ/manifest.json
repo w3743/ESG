@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "300867.SZ",
+  "company": "圣元环保",
+  "report_year": "2024",
+  "report_title": "圣元环保2024年度可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223125050.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:06:54+08:00",
+  "source_pdf_sha256": "998bb1c8118d42b972c519a87c2af170ff7498c43d214a438e7e8e0185d90ff9",
+  "normalized_text_fingerprint": "c723c9dd514d0559064ec4fcf00f1ee7bdca387d1a4a3d92419675a298c51a69",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

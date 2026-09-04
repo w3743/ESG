@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "000651.SZ",
+  "company": "格力电器",
+  "report_year": "2024",
+  "report_title": "格力电器2024年度可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223330624.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T12:15:12+08:00",
+  "source_pdf_sha256": "f807b17a2198fbcd310a92c83a18d9cb58ae92f2668750b0ec62f582eb0bcd63",
+  "normalized_text_fingerprint": "8e7e9441743d1db806c1e2ac3656ab766428a709e4e202b0203873b843f1c27d",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

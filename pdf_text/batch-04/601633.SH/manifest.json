@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "601633.SH",
+  "company": "长城汽车",
+  "report_year": "2024",
+  "report_title": "长城汽车2024年度可持续发展报告",
+  "source_url": "https://res.gwm.com.cn/GwmCn/files/social/GWM_2024.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-08-31T13:19:03+08:00",
+  "source_pdf_sha256": "65b953e65b723c06e6da29a84fab011698193ca178021b4ab06fab4a33fb7a7d",
+  "normalized_text_fingerprint": "bd6ad26492c97e429e59257e45d8c2c4cfd19a9c56e922e18fd2eb23913dc62c",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

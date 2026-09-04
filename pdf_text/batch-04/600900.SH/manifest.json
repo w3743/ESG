@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "600900.SH",
+  "company": "中国长江电力",
+  "report_year": "2024",
+  "report_title": "长江电力2024年度环境社会和治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223421180.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:06:04+08:00",
+  "source_pdf_sha256": "5e5369fd0643d228299ef51bf79a218750a6fb9d22f0068ead477747f02461d1",
+  "normalized_text_fingerprint": "ae5ce052a2fad0001a00773e6b6d2b2b8a8ef51b23a2027b08514ad4a29855b7",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

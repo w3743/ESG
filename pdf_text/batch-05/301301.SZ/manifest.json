@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "301301.SZ",
+  "company": "川宁生物",
+  "report_year": "2024",
+  "report_title": "治理（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223192664.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:25:52+08:00",
+  "source_pdf_sha256": "946c9820a48ac51e49894a3f0946980f435ee08087c11c4534021cbea7e55a91",
+  "normalized_text_fingerprint": "1835d7c4fc8afa3a8ded64eac1e0ca65e10aa0719351fc3f5e0519c8e2a36d95",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/301301.SZ",
+  "source_pdf_name": "第5批次_19_川宁生物.pdf"
+}

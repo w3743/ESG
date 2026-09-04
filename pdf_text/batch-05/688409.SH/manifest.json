@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "688409.SH",
+  "company": "富创精密",
+  "report_year": "2024",
+  "report_title": "环境、 社会和公司治理(ESG)报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223424603.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:51:07+08:00",
+  "source_pdf_sha256": "2087803a87b2c18323f78517cbb0da69dd424445a718eed3f5e04996bd809c7c",
+  "normalized_text_fingerprint": "5b42cccb75fd1062e845eb6ca7f602297e1b760522a073b66549c425e9d00ab6",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/688409.SH",
+  "source_pdf_name": "第5批次_49_富创精密.pdf"
+}

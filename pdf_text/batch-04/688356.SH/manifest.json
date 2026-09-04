@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "688356.SH",
+  "company": "北京键凯科技",
+  "report_year": "2024",
+  "report_title": "北京键凯科技2024年社会责任报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223381318.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:04:49+08:00",
+  "source_pdf_sha256": "872f6aedc6400c4085ba787add2e59847910533613f7d15f0660c162068e4f0e",
+  "normalized_text_fingerprint": "bd5c30addcc7680ade34a88923a9e9f4ff1bb3174b9148d451c7f4b175bf5161",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

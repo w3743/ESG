@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "301308.SZ",
+  "company": "江波龙",
+  "report_year": "2024",
+  "report_title": "2024 年度环境、社会与公司治理（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-06-12/1223848629.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:50:08+08:00",
+  "source_pdf_sha256": "50e2e4a47c7c6d597694b4e22ee0383c5b1db8994c68389190a38061e7aa44f3",
+  "normalized_text_fingerprint": "d5432f462f495509e0841ffbaeba7ab55cc67d73c2953ff393e799db544fd9b5",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/301308.SZ",
+  "source_pdf_name": "第5批次_44_江波龙.pdf"
+}

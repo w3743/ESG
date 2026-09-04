@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "601988.SH",
+  "company": "中国银行",
+  "report_year": "2024",
+  "report_title": "中国银行2024年度社会责任报告",
+  "source_url": "https://www.boc.cn/aboutboc/boccsr/202503/P020250326687626261152.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-08-31T13:18:18+08:00",
+  "source_pdf_sha256": "1b77419c9ccf7036e69722b357a435de4981e85b45bbcb760f6ffe3831faf3ae",
+  "normalized_text_fingerprint": "87dd9c271a16052c8663aece8664dbeada547e2c7338b6ae04209ec657a2c69f",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

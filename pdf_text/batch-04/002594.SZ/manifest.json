@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "002594.SZ",
+  "company": "比亚迪",
+  "report_year": "2024",
+  "report_title": "比亚迪2024年可持续发展报告",
+  "source_url": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-03-25/0f91d9b9-8154-4aad-ae67-d3d671eec157.PDF",
+  "source_type": "深交所",
+  "download_time": "2026-08-31T12:15:09+08:00",
+  "source_pdf_sha256": "8dfceabd75452ffaf39b0ffa7a1e841707b586931347819e058ebb343c93b1dd",
+  "normalized_text_fingerprint": "d0153384fa60c5c8dd95058c777a2f8155d1becc7d65b89b67be0a18aaa93431",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

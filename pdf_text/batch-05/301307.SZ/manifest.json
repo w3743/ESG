@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "301307.SZ",
+  "company": "美利信",
+  "report_year": "2024",
+  "report_title": "重庆美利信科技股份有限公司 ���� 年度环境、社会和公司治理报告 开篇·董事长致辞",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223191337.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:18:02+08:00",
+  "source_pdf_sha256": "53aa4f8b6f3d241602d8469e30d45e1ddc9050506842dee563a74aab8af66585",
+  "normalized_text_fingerprint": "5cddc37b0d0db0542c38adf6f4902f0b73a4712febcc74fe74f3e8d030dfb4c5",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/301307.SZ",
+  "source_pdf_name": "第5批次_10_美利信.pdf"
+}

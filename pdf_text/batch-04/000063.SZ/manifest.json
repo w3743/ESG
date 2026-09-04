@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "000063.SZ",
+  "company": "中兴通讯",
+  "report_year": "2024",
+  "report_title": "中兴通讯2024年度可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675740.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:02:52+08:00",
+  "source_pdf_sha256": "03f95276b4a7c8e7b6e009ae0b66bee8f89b205ba2cf46d09b7aea4f1a72d570",
+  "normalized_text_fingerprint": "3c533efcbcec0e443ccdfd4628378c0a9d86a0d537cf0634f41a08d1d56a08f7",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

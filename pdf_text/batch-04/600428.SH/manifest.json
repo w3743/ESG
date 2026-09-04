@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "600428.SH",
+  "company": "中远海运特种运输",
+  "report_year": "2024",
+  "report_title": "中远海运特种运输股份有限公司2024年度可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928601.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:07:23+08:00",
+  "source_pdf_sha256": "b24301dc33966c63e39d3b4531fa312aa152311287a056d6ef5d97b8af8cf438",
+  "normalized_text_fingerprint": "4472a3c6a34eb324da917180bb4315f5283c093c74629909a4ab7076181c302c",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

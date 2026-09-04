@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "600221.SH",
+  "company": "海南航空",
+  "report_year": "2024",
+  "report_title": "海南航空控股2024年可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223419509.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:10:50+08:00",
+  "source_pdf_sha256": "a6999bb809393ec62a9528d90ecfa036b46f1d173fe20fe8ae2d0decbf9b9bb3",
+  "normalized_text_fingerprint": "060887113b2cf9317016a2adc63332682ed610ddbd36e66a67cdb93b1f2fb602",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}

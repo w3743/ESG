@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "603013.SH",
+  "company": "亚普股份",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223356486.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:51:16+08:00",
+  "source_pdf_sha256": "c5c32ed737c8c71870ba1c473950481e70687d8dbc37e5dfb48888a53fa7b729",
+  "normalized_text_fingerprint": "6b9825606960521daccbc19f2360f33c5a3e55cfd4b662d9bf2c3ba14dc1f7c2",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/603013.SH",
+  "source_pdf_name": "第5批次_50_亚普股份.pdf"
+}

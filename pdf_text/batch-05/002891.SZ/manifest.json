@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "002891.SZ",
+  "company": "中宠股份",
+  "report_year": "2024",
+  "report_title": "中宠股份2024年ESG报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223233435.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:48:52+08:00",
+  "source_pdf_sha256": "68f715235832843ac6215f9a9a64b26733cde6d73e6d8373d8f582f84812fa49",
+  "normalized_text_fingerprint": "422f6a7e20efce7f74c1ea047a092dc4d432c383b3079329120201208bd4f8f1",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/002891.SZ",
+  "source_pdf_name": "第5批次_40_中宠股份.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "301339.SZ",
+  "company": "通行宝",
+  "report_year": "2024",
+  "report_title": "报告 (ESG) 2024",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222924946.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:20:19+08:00",
+  "source_pdf_sha256": "5cfe292027a90c037e101b72940dd354da3669d7dcc53bf46ab1ef400decaf32",
+  "normalized_text_fingerprint": "7e8f91eb265a4bd8be3988872e818922391517bcf9a4adc75abc1d0c2ee4fd0b",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/301339.SZ",
+  "source_pdf_name": "第5批次_17_通行宝.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "003012.SZ",
+  "company": "东鹏控股",
+  "report_year": "2024",
+  "report_title": "环境、社会及管治（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223302901.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:37:12+08:00",
+  "source_pdf_sha256": "b24bb72dc11989ea1bbfd6c8cdb5aac0a1d05b09d124cf446e7d0b880a2ca88f",
+  "normalized_text_fingerprint": "5537ac13c3f4e6596a2198666f1401264fabd32718575aba185d57949a9586a0",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/003012.SZ",
+  "source_pdf_name": "第5批次_28_东鹏控股.pdf"
+}

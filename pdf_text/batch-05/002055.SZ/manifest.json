@@ -1,0 +1,16 @@
+{
+  "batch": "05",
+  "ticker": "002055.SZ",
+  "company": "ST得润",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223388605.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:46:35+08:00",
+  "source_pdf_sha256": "c728c86b477934b6316ac88d92d573f165878311980bc24c6fd18db7cce81137",
+  "normalized_text_fingerprint": "d5555e401d1bda5c9366b84d0db998e5daee323933c95c224c0111d3d737befc",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-05/002055.SZ",
+  "source_pdf_name": "第5批次_37_ST得润.pdf"
+}

@@ -1,0 +1,14 @@
+{
+  "batch": "04",
+  "ticker": "688707.SH",
+  "company": "振华新材",
+  "report_year": "2024",
+  "report_title": "振华新材2024年度可持续发展报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223316911.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-08-31T13:08:07+08:00",
+  "source_pdf_sha256": "25181947395cfe9da4091ff9ea66e531a28544fd907ccd98429a601364bfab9f",
+  "normalized_text_fingerprint": "ff88bf8a2a6afc6cb451e848f601981fc0f5fea591ec50c09152690e5a37ea20",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_reused"
+}
