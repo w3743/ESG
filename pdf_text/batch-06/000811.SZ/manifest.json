@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "000811.SZ",
+  "company": "冰轮环境",
+  "report_year": "2024",
+  "report_title": "本报告是冰轮环境技术股份有限公司（以下简称“冰轮环境”“公司”“我们”）发布的2024年环境、 社会和公司治理",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223404781.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:52:36+08:00",
+  "source_pdf_sha256": "89125d28bdef934f16423bc85b20e4eb01ca78cdf894f7e6817a5c57021ed083",
+  "normalized_text_fingerprint": "a1b6090668c552b22cfcc982a02e921b59414d9b5e7f6285d536256433ff0764",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/000811.SZ",
+  "source_pdf_name": "第6批次_07_冰轮环境.pdf"
+}

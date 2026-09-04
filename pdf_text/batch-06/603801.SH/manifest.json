@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "603801.SH",
+  "company": "志邦家居",
+  "report_year": "2024",
+  "report_title": "2024 环境、社会和公司治理 (ESG) 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223386387.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:05:30+08:00",
+  "source_pdf_sha256": "408889c013f6d6bb79cece63fcff51940aec8f5ae293962ada0b232f1cf6512c",
+  "normalized_text_fingerprint": "83947733e7aa754bb63f3f125b32f1cf8bdb4eea92961accfb84ed63139949fa",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/603801.SH",
+  "source_pdf_name": "第6批次_39_志邦家居.pdf"
+}

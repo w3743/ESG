@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "600192.SH",
+  "company": "长城电工",
+  "report_year": "2024",
+  "report_title": "本报告是兰州长城电工股份有限公司的第一份环境、社会和公司治理报告。报告秉承客观、规范、",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094182.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:58:31+08:00",
+  "source_pdf_sha256": "bdd858cc9fd00061bc79489e319c749b434c83dc5c4ce0695531279a23b96c61",
+  "normalized_text_fingerprint": "a59acc16df460793d5fff73ec6e1f93e0533ab0adddef7558d7c7e5baa9ed6be",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/600192.SH",
+  "source_pdf_name": "第6批次_23_长城电工.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "600576.SH",
+  "company": "祥源文旅",
+  "report_year": "2024",
+  "report_title": "2024 年度环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223130624.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:00:40+08:00",
+  "source_pdf_sha256": "e93def1c0bf0faed72105f0242c11679d685c65e86ba74cb6cdb8f0291d7631c",
+  "normalized_text_fingerprint": "f79151f435df7688687cd597ef935138aa47fa8054c905ac1dbf54f7a2641354",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/600576.SH",
+  "source_pdf_name": "第6批次_29_祥源文旅.pdf"
+}

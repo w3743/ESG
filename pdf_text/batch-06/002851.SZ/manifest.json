@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "002851.SZ",
+  "company": "麦格米特",
+  "report_year": "2024",
+  "report_title": "麦格米特2024年ESG报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223367372.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:02:10+08:00",
+  "source_pdf_sha256": "6a551d68bb87e4af4cef82c2bc8de2d6221c3d244a18095c9ba2c94b2ded8a9d",
+  "normalized_text_fingerprint": "26a03900d5caf9e5a4f65b2e12eb06f80316b72a107eba4764b554468c68f29d",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/002851.SZ",
+  "source_pdf_name": "第6批次_34_麦格米特.pdf"
+}

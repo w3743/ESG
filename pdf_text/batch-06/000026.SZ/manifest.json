@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "000026.SZ",
+  "company": "飞亚达",
+  "report_year": "2024",
+  "report_title": "本报告是飞亚达精密科技股份有限公司2024年度环境、 社会和公司治理 （Environmental， Social And Gover-",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-14/1222788780.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:01:39+08:00",
+  "source_pdf_sha256": "c5c4194f1b44676cacf6f20a9d9d733a2802251d07f4e776a76598272166db61",
+  "normalized_text_fingerprint": "1f517444b2917540193d3e0e30626be425dd9b12e36e0c80ad95ea8ca858f553",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/000026.SZ",
+  "source_pdf_name": "第6批次_31_飞亚达.pdf"
+}

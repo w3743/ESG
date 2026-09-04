@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "002819.SZ",
+  "company": "东方中科",
+  "report_year": "2024",
+  "report_title": "环境、 社会和公司治理(ESG)报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223327978.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:51:46+08:00",
+  "source_pdf_sha256": "a0ef18113e8829e2b6e7fce6f8e4d07baf2fc5fe3704bc0ea700cc8c520a9288",
+  "normalized_text_fingerprint": "f6e887810ad600e414e3f4a110ed89a87a37f0f032672900f6b0cbb9b4913e08",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/002819.SZ",
+  "source_pdf_name": "第6批次_03_东方中科.pdf"
+}

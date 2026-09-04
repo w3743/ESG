@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "603101.SH",
+  "company": "汇嘉时代",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理（ESG）报告ENVIRONMENTAL,SOCIAL AND GOVERNANCE(ESG)REPORT",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-04/1223006878.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:52:58+08:00",
+  "source_pdf_sha256": "0d043089569f592da9219bdefa2252320f5d6df96aa4b585434b81bb4c55afaa",
+  "normalized_text_fingerprint": "a21d24e6994270c7fd9f7c731c86f7dd69154a7f4335e2da4606c2efe1c9f3ba",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/603101.SH",
+  "source_pdf_name": "第6批次_08_汇嘉时代.pdf"
+}

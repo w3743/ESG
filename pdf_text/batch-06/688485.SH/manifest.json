@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "688485.SH",
+  "company": "九州一轨",
+  "report_year": "2024",
+  "report_title": "份环境、 社会和公司治理 (ESG) 报告 （暨公司社会责任报告） 。",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223347733.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:51:56+08:00",
+  "source_pdf_sha256": "da9c0e472dfb315d0be49c39a26538f1482db0429bc74858ec4a23116c6356e6",
+  "normalized_text_fingerprint": "573c16fecc89758da825e68efd0d65f1f200e784f64e78b5badf9b7fe3946c43",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/688485.SH",
+  "source_pdf_name": "第6批次_04_九州一轨.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "600020.SH",
+  "company": "中原高速",
+  "report_year": "2024",
+  "report_title": "环境、 社会与治理 （ESG） 报告环境、 社会与治理 （ESG） 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222952070.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:00:48+08:00",
+  "source_pdf_sha256": "4a0a7da77cd9397a8a261d5cc51cffc8948a3da6d92fb1ca4e0bf233df6094f8",
+  "normalized_text_fingerprint": "2325a8f219be78095ca21da8f33c62bbfe6d4d446404828bffd6797c1ac8eade",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/600020.SH",
+  "source_pdf_name": "第6批次_30_中原高速.pdf"
+}

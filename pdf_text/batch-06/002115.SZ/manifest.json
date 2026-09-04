@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "002115.SZ",
+  "company": "三维通信",
+  "report_year": "2024",
+  "report_title": "环境、 社会及公司治理 （ESG） 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223324522.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:00:20+08:00",
+  "source_pdf_sha256": "e842d981a05cb8ff2a35ed83aad52855fcecab6590b90d305270417cce2e1cd8",
+  "normalized_text_fingerprint": "b925c42bc9791423ef6c496c23c0eeedddde64206eee9af0ca00ad15fa7174f0",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/002115.SZ",
+  "source_pdf_name": "第6批次_28_三维通信.pdf"
+}

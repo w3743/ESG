@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "600513.SH",
+  "company": "联环药业",
+  "report_year": "2024",
+  "report_title": "联环药业2024年ESG报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223127913.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:04:23+08:00",
+  "source_pdf_sha256": "5792dbe7993ec4bbba55bbc6912fd7a0acfddc68a2583635333624a20bcb0252",
+  "normalized_text_fingerprint": "eb0cbe22157d32d95da97011418d078007e1a3a87a1fdb39a64ec2669a27346e",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/600513.SH",
+  "source_pdf_name": "第6批次_38_联环药业.pdf"
+}

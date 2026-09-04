@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "002078.SZ",
+  "company": "太阳纸业",
+  "report_year": "2024",
+  "report_title": "环境、社会和治理（ESG）报告Environmental、Social and Governance Reportwww.sunpapergroup.com",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223045489.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:02:03+08:00",
+  "source_pdf_sha256": "50baa7fd7a3c37fb2abcc3ca871296adf2fb2dd5797db7d4f0aa544de2a90ab0",
+  "normalized_text_fingerprint": "51f21a131e72be05fed46887f9c5ba00d992ac89461a9ba874d86bc5a7500464",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/002078.SZ",
+  "source_pdf_name": "第6批次_33_太阳纸业.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "603687.SH",
+  "company": "大胜达",
+  "report_year": "2024",
+  "report_title": "本报告是浙江大胜达包装股份有限公司发布的第四份环境、 社会及公司治理 （Environmental,So-",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197215.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:04:13+08:00",
+  "source_pdf_sha256": "ad1a12856aa58bb5df7bb34289aded7df01072b8f482cd55c9743a558f268dd3",
+  "normalized_text_fingerprint": "bb4ac6f4ddbb1c602882dc68218d19951601dffd4d9aa2757767e7add2bb9484",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/603687.SH",
+  "source_pdf_name": "第6批次_37_大胜达.pdf"
+}

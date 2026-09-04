@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "300339.SZ",
+  "company": "润和软件",
+  "report_year": "2024",
+  "report_title": "环境、 社会和公司治理 （ESG） 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223195743.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:52:29+08:00",
+  "source_pdf_sha256": "486d5f85c57c306ebd933a7a5ec69c5b37eff078873f7181175a94f058151435",
+  "normalized_text_fingerprint": "21206b3dfd7ce798173ec6e4abef38e0fbd766b1eee684711194323f27f09ec9",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/300339.SZ",
+  "source_pdf_name": "第6批次_06_润和软件.pdf"
+}

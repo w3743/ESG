@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "601065.SH",
+  "company": "江盐集团",
+  "report_year": "2024",
+  "report_title": "本报告是江西省盐业集团股份有限公司环境、 社会和治理报告发布的第二份环境、 社会和治理 （ESG） 报告。 报告依据客观、",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223384291.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:55:25+08:00",
+  "source_pdf_sha256": "c13101932fa1766272c8ab08a4232440f0ecd1eabb2edd641602614c001acabc",
+  "normalized_text_fingerprint": "d4e27c450944449819b61a6bdd9741e4b628ca334c52a700e5739f4b1ea6162b",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/601065.SH",
+  "source_pdf_name": "第6批次_12_江盐集团.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "300371.SZ",
+  "company": "汇中股份",
+  "report_year": "2024",
+  "report_title": "汇中仪表股份有限公司 2024年度环境、社会及治理（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223123336.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:51:35+08:00",
+  "source_pdf_sha256": "de614d78bbd2f21a59721208899379d8dff01b96de4765c27067e0466badec1d",
+  "normalized_text_fingerprint": "8881e9aaabe353637ddefef15637d5c7df6fc5c589a08e814ceba8962f27895f",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/300371.SZ",
+  "source_pdf_name": "第6批次_02_汇中股份.pdf"
+}

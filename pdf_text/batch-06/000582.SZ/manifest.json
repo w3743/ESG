@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "000582.SZ",
+  "company": "北部湾港",
+  "report_year": "2024",
+  "report_title": "北部湾港股份有限公司（以下简称“北部湾港”“公司”或“我们”）自 2022 年开始面向社会公开发布社会责任报告，",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223269131.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:07:14+08:00",
+  "source_pdf_sha256": "b25e1bacc3ca9bcc4e340d37ee3ec458b76bb095785172ea09c650e7fb71dfa2",
+  "normalized_text_fingerprint": "bb06b0c81cc8864ce13a3af68456205b612cb0c188d4cbb68b9ffedafc5cc976",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/000582.SZ",
+  "source_pdf_name": "第6批次_44_北部湾港.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "000429.SZ",
+  "company": "粤高速A",
+  "report_year": "2024",
+  "report_title": "本报告是广东省高速公路发展 股份 有限公司2024年度环境、 社会和公司治理 （Environmental， Social",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-04/1222693886.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:54:36+08:00",
+  "source_pdf_sha256": "3393042f0d00009a14c4632fdd0494e7804ed9e899e7ee3f4f69b4e1db1e521a",
+  "normalized_text_fingerprint": "bd075249b13fca7fdc1f3c06bca783a973e781ecb0dddce5c0bf318a32b3f777",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/000429.SZ",
+  "source_pdf_name": "第6批次_11_粤高速A.pdf"
+}

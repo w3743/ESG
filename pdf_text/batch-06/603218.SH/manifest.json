@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "603218.SH",
+  "company": "日月股份",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223390733.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:52:17+08:00",
+  "source_pdf_sha256": "9dfc20cce7a626d35015e9936e83a4db077cda1c955b85d3acb7496b8e9c43b6",
+  "normalized_text_fingerprint": "9bf374f88848e4127fa566c43fc4bc81900195e2999bdfaa06c0d8bb1cda0d32",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/603218.SH",
+  "source_pdf_name": "第6批次_05_日月股份.pdf"
+}

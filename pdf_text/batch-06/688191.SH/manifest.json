@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "688191.SH",
+  "company": "智洋创新",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223319490.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:06:40+08:00",
+  "source_pdf_sha256": "09fb04abac17ebf5fd29d5c0242eb16175aebe534715324d4dbece8367781ae8",
+  "normalized_text_fingerprint": "0ec31bf70085cca9f428ec712a537d44e80403d53e7e96d34ecb2a9a1204be8e",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/688191.SH",
+  "source_pdf_name": "第6批次_42_智洋创新.pdf"
+}

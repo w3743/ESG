@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "002761.SZ",
+  "company": "浙江建投",
+  "report_year": "2024",
+  "report_title": "环境、 社会和公司治理 （ESG） 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223388053.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:03:20+08:00",
+  "source_pdf_sha256": "0ef108e33bcc6ff48959e8c9026961cdf5a4667a2875b37fe734a7b7af0a60af",
+  "normalized_text_fingerprint": "2bfacdb04b77fe141c8518281ff5208a7282b4ae942d7d85c2b87e8e01c470a6",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/002761.SZ",
+  "source_pdf_name": "第6批次_35_浙江建投.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "301103.SZ",
+  "company": "何氏眼科",
+  "report_year": "2024",
+  "report_title": "治理 (ESG)报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223264726.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:07:21+08:00",
+  "source_pdf_sha256": "c8bc803ce9b06a73e5845714533fd8e95c8f0bde6ca845dfc27e146d4944e1f5",
+  "normalized_text_fingerprint": "994ffb7ab2002a95d51daa55da5cfd6314740116d627c46fe020c4556d2c47e3",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/301103.SZ",
+  "source_pdf_name": "第6批次_45_何氏眼科.pdf"
+}

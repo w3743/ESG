@@ -1,0 +1,16 @@
+{
+  "batch": "06",
+  "ticker": "300957.SZ",
+  "company": "贝泰妮",
+  "report_year": "2024",
+  "report_title": "及管治(ESG) 报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223273107.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T08:57:49+08:00",
+  "source_pdf_sha256": "2873d16331759d37926c513a94ddf4e3b1c33ed1b66dec63917c3828e29c1081",
+  "normalized_text_fingerprint": "93e0b9118b94383ba79ff384a6822d6aa41b982e9e2f18cae434fcbd0018a0b6",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-06/300957.SZ",
+  "source_pdf_name": "第6批次_21_贝泰妮.pdf"
+}
