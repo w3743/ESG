@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "000050.SZ",
+  "company": "深天马A",
+  "report_year": "2024",
+  "report_title": "本报告内容来自于公司 2024 年 1 月 1 日至 2024 年 12 月 31 日期间，每年定期对外发布。",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806961.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:16:42+08:00",
+  "source_pdf_sha256": "e8c5cbdb9fa9a574f3a201064678b6cd98f22ea17fd8a6468541c4f9a9738e05",
+  "normalized_text_fingerprint": "724f056d1feff194239f8cbe719c867bef0eb6a207e59a1b62e97c1619084a80",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/000050.SZ",
+  "source_pdf_name": "第7批次_23_深天马A.pdf"
+}

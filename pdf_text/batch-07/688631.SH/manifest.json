@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "688631.SH",
+  "company": "莱斯信息",
+  "report_year": "2024",
+  "report_title": "环境、社会和公司治理（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223320270.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:10:50+08:00",
+  "source_pdf_sha256": "0147176460d743e0cb4255b0aff20bae1c784a56dec5a5e9be65ca60514c5447",
+  "normalized_text_fingerprint": "078625dc5bd112d95ab83f75d621578bd3d391ab15068d8e4385d178c2f33904",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/688631.SH",
+  "source_pdf_name": "第7批次_08_莱斯信息.pdf"
+}

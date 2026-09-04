@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "300995.SZ",
+  "company": "奇德新材",
+  "report_year": "2024",
+  "report_title": "本报告是广东奇德新材料股份有限公司（以下简称 “奇德新材”、“公司”或“我们”）发布的首份环境、社会及公司治理（ESG）报告，旨在将可持续发展理念融入公司治理，并向我们的",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223097409.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:16:35+08:00",
+  "source_pdf_sha256": "480088da32c575a010c5fa9291a27f0fb245cc698e72b03a2042c1f5c9546616",
+  "normalized_text_fingerprint": "fb6bf49259ac84e79d33fbc749208b9cf18869fbb337b13aeed1bf4e67b3fb0b",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/300995.SZ",
+  "source_pdf_name": "第7批次_22_奇德新材.pdf"
+}

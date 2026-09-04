@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "600644.SH",
+  "company": "乐山电力",
+  "report_year": "2024",
+  "report_title": "乐山电力股份有限公司 | 2024 | 环境、社会与治理（ESG）报告 领导致辞",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223130656.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:28:14+08:00",
+  "source_pdf_sha256": "4216f54607c233e488bf175eb839737d221429f0f1bb32b7dc9ef341f4f63993",
+  "normalized_text_fingerprint": "163f230b4e2f495fff5d6160070597b3d301b1d2040e1634d114877c99c63087",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/600644.SH",
+  "source_pdf_name": "第7批次_46_乐山电力.pdf"
+}

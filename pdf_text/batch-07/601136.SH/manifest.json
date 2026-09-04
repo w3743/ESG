@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "601136.SH",
+  "company": "首创证券",
+  "report_year": "2024",
+  "report_title": "关于本报告2024 年度环境、社会及公司治理（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-12/1223071807.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:11:20+08:00",
+  "source_pdf_sha256": "88cfc722891fc87d712aeccbe47179c0e74e7fb308f617a2f66caeb27fd4e65d",
+  "normalized_text_fingerprint": "9b1f5fe3c8e07b76558d3ec8c5ade7e7529af31329bc6cd1b2d6a0db52d57b98",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/601136.SH",
+  "source_pdf_name": "第7批次_09_首创证券.pdf"
+}

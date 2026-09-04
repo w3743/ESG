@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "600853.SH",
+  "company": "龙建股份",
+  "report_year": "2024",
+  "report_title": "龙建路桥股份有限公司 2024 年度环境、社会和公司治理 (ESG) 报告 关于本报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222948254.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:25:11+08:00",
+  "source_pdf_sha256": "e9ffae0f1a4347f6ce66e39a56b3b268f1f7caec43e80c58a01cc3445b34f133",
+  "normalized_text_fingerprint": "39afa58fbfe447893108892b26bca79c586de08ad4f2f9c13be8d9822b4f3ab7",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/600853.SH",
+  "source_pdf_name": "第7批次_39_龙建股份.pdf"
+}

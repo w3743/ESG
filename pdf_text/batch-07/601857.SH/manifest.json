@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "601857.SH",
+  "company": "中国石油",
+  "report_year": "2024",
+  "report_title": "中国石油天然气集团2024年度企业社会责任报告",
+  "source_url": "https://www.cnpc.com.cn/cnpc/lncbw/202505/55347d1f8d2843c79e99fd61d180067b/files/4dc524c14cd949fb941e2e16986b8fb6.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-09-04T07:51:33+08:00",
+  "source_pdf_sha256": "4c6dc32f3176b61ac56e1e0f165df6b31c2c52dde234e149f925cfe6ea314d17",
+  "normalized_text_fingerprint": "e5a64499ccff48723c2b970a9d4b3bc955984e482994d5b352ed624595c348df",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/601857.SH",
+  "source_pdf_name": "第7批次_03_中国石油.pdf"
+}

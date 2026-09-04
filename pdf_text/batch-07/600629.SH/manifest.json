@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "600629.SH",
+  "company": "华建集团",
+  "report_year": "2024",
+  "report_title": "“集团”、 “我们”）发布的第 10 份社会责任报告，阐述了集",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223413959.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:26:04+08:00",
+  "source_pdf_sha256": "0fb8e52153b78ce1190343772d4be55304f29c0b366a60ce4d47ccafdf50bb77",
+  "normalized_text_fingerprint": "0e02be631e0f84aace5910a1fe91627c9386d19bb9bb0a55f4541750bd5b31c9",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/600629.SH",
+  "source_pdf_name": "第7批次_43_华建集团.pdf"
+}

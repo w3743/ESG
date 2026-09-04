@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "300917.SZ",
+  "company": "特发服务",
+  "report_year": "2024",
+  "report_title": "公司治理报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223151945.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:26:47+08:00",
+  "source_pdf_sha256": "74d729566e0b56ae2ccb1c73b1b752329c17968beae552d51c842719be977b9c",
+  "normalized_text_fingerprint": "53f86d7833675d30f844a77eeb0d1bb689f5f1b6a90262c83e60fbf847c61dd0",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/300917.SZ",
+  "source_pdf_name": "第7批次_44_特发服务.pdf"
+}

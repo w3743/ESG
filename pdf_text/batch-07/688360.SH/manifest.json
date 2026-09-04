@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "688360.SH",
+  "company": "德马科技",
+  "report_year": "2024",
+  "report_title": "社会及管治（ESG）报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223391661.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:27:30+08:00",
+  "source_pdf_sha256": "2028cf5317e14fa180c31a23c6f3fd5ea4aeccf794b2324d485cef870e19c75f",
+  "normalized_text_fingerprint": "6b99413597e372217ce1b7973d95a232f0163295e273cffa2a99736de84a86db",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/688360.SH",
+  "source_pdf_name": "第7批次_45_德马科技.pdf"
+}

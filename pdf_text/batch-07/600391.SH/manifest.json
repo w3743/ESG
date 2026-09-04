@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "600391.SH",
+  "company": "航发科技",
+  "report_year": "2024",
+  "report_title": "环境、社会及治理(ESG)报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-01/1222972717.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:25:40+08:00",
+  "source_pdf_sha256": "ab12c139e7782f68f3263daaf3063c2a8370adc931cedb59941f4d8106be247f",
+  "normalized_text_fingerprint": "c313cddab78c40f84872169e9b6fa9370ac15582ed13a4937c7d944326405d10",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/600391.SH",
+  "source_pdf_name": "第7批次_40_航发科技.pdf"
+}

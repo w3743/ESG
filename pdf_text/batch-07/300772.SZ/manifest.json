@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "300772.SZ",
+  "company": "运达股份",
+  "report_year": "2024",
+  "report_title": "本报告是运达能源科技集团股份有限公司（以下简称“运达股份” ）发布的第 3 份年度环境、社会及公司治理（ESG）暨",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318254.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:19:42+08:00",
+  "source_pdf_sha256": "5ae2f10db97a04ffc16ea6f69b3e65f82a9c5afb815b8f06fae308d2b5105087",
+  "normalized_text_fingerprint": "df92e49be730e519a8ad5c6bb96bc3e2bec5826fd021ee8c441e9ddd07a41102",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/300772.SZ",
+  "source_pdf_name": "第7批次_31_运达股份.pdf"
+}

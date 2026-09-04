@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "002431.SZ",
+  "company": "ST棕榈",
+  "report_year": "2024",
+  "report_title": "ST棕榈2024年ESG报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223316892.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:14:58+08:00",
+  "source_pdf_sha256": "d903144ff380aa42c9a475e1ceb68fa996c37a34faabc6dfcc0e1d164d0f5de7",
+  "normalized_text_fingerprint": "cf6bc0ce9549423f26bc5b3ec1ce742371c8a4c14c3b41b29ab1bc954d0f6229",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/002431.SZ",
+  "source_pdf_name": "第7批次_17_ST棕榈.pdf"
+}

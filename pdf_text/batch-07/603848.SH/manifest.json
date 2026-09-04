@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "603848.SH",
+  "company": "好太太",
+  "report_year": "2024",
+  "report_title": "环境、社会及公司治理(ESG)报告",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318466.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:13:34+08:00",
+  "source_pdf_sha256": "8c6c6a28efb116d5eafabe2a18774e3f2663eba776485c3978d07ca69c9e2e12",
+  "normalized_text_fingerprint": "fd46e1a65722873fce59d2fa96f5fb0e2eb21125fd08d08b606803291e9931a8",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/603848.SH",
+  "source_pdf_name": "第7批次_13_好太太.pdf"
+}

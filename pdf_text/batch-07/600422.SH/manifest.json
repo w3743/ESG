@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "600422.SH",
+  "company": "昆药集团",
+  "report_year": "2024",
+  "report_title": "《昆药集团股份有限公司2024年度环境、社会及治理（ESG）报告》（以下称“本报告”）是昆药集团股份有限公司第",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-12/1222769149.PDF",
+  "source_type": "CNINFO",
+  "download_time": "2026-09-04T09:16:25+08:00",
+  "source_pdf_sha256": "0ea6cf474c688da5ea86a53c30861484dbec875cfd4426fbb024a2d5f1b35aaf",
+  "normalized_text_fingerprint": "c3162f5eab236186c2a245a55d8e2bb4f8cc5fa2acad97bf20c28ff9efa98289",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/600422.SH",
+  "source_pdf_name": "第7批次_21_昆药集团.pdf"
+}

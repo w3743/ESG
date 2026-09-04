@@ -1,0 +1,16 @@
+{
+  "batch": "07",
+  "ticker": "000625.SZ",
+  "company": "长安汽车",
+  "report_year": "2024",
+  "report_title": "长安汽车2024年环境、社会及治理（ESG）报告",
+  "source_url": "https://www.globalchangan.com/static/clientlibs/changancms/pdf/ChangAn_Automobile_ESG_Report_2024_cn.pdf",
+  "source_type": "公司官网",
+  "download_time": "2026-09-04T07:51:27+08:00",
+  "source_pdf_sha256": "24785b209eab0e715f8a1a72b9fa62e5dc48801d3358c31eb5ed3080f1a5e9a5",
+  "normalized_text_fingerprint": "4712dd9e0ca3e5aa2ef8cbe1cb4fbc00445e34c1910bda5d4a12820c91879e34",
+  "mineru_method": "pipeline-txt",
+  "parse_status": "success_api_gpu",
+  "output_directory": "pdf_text/batch-07/000625.SZ",
+  "source_pdf_name": "第7批次_02_长安汽车.pdf"
+}
