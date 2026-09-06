@@ -14,7 +14,7 @@ models/<model-id>/<variant>/
 pdf_text/batch-<NN>/<ticker>/
 ```
 
-每份报告目录只包含 `report.md`。当前 `pdf_text/batch-04/` 至 `pdf_text/batch-08/` 均为已解析文字结果；来源、去重和校验信息只在本地工作记录中维护，不作为仓库交付物。
+每份报告目录只包含 `report.md`。当前 `pdf_text/batch-04/` 至 `pdf_text/batch-10/` 均为已解析文字结果；来源、去重和校验信息只在本地工作记录中维护，不作为仓库交付物。
 
 ## 版本策略
 
