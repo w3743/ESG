@@ -25,6 +25,6 @@ model = AutoModelForCausalLM.from_pretrained(
 model = PeftModel.from_pretrained(model, adapter_dir)
 ```
 
-A 模型的 `system` 内容和 B-SAI 模型的 `system` 内容已保存在各自训练数据中；完整示例和字段定义见仓库根目录说明及 `training/datasets/`。
+使用时应提供与训练任务一致的 `system` 指令。训练数据及原始指令目前未随本发布仓库提供；各任务的输入、输出字段见 [esg-split](esg-split/README.md) 和 [esg-sai](esg-sai/README.md)。上面的加载代码只演示适配器加载，不能代替完整的推理协议。
 
 本次训练采用四批次去重后的数据。A 的验证集 loss 为 0.0693，B-SAI 的验证集 loss 为 0.0526；这些数值是训练期间的验证指标，不等同于独立测试集的最终业务验收结果。

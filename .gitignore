@@ -13,6 +13,9 @@
 __pycache__/
 .cache/
 tmp/
+/downloaded-models/
+*.download
+*.assembling
 pdf_text/**/content_list*.json
 pdf_text/**/middle.json
 pdf_text/**/model.json

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "model_id": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929",
+  "status": "experimental-candidate",
+  "format": "GGUF",
+  "quantization": "Q5_K_M",
+  "checkpoint_date": "2026-09-29",
+  "lm_studio_registration_date": "2026-10-13",
+  "release_tag": "esg-qwen35-9b-b09-20260929-q5-k-m",
+  "filename": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf",
+  "size_bytes": 6467969664,
+  "sha256": "ab6da373a48b84807201948e250446fbcbf2143eb3ea69c31be6f629c44a8334",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "adapter_sha256": "2374b8389571f29b7503cb2c926bbe85329cd337ee5c6efed3fba4adbdbc236f",
+  "llama_cpp_export_release": "b11026",
+  "distribution": "github-release-raw-byte-parts",
+  "parts": [
+    {
+      "name": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part001",
+      "size_bytes": 1900000000,
+      "sha256": "9087d5ac3555e3c46560db5c1941909a394718063f238bba3a36e738bcb59467",
+      "url": "https://github.com/w3743/ESG/releases/download/esg-qwen35-9b-b09-20260929-q5-k-m/ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part001"
+    },
+    {
+      "name": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part002",
+      "size_bytes": 1900000000,
+      "sha256": "acd77b5f5824beda244b3fb3fe45ed0cb82ba913ab4a3d3d107d75484c395258",
+      "url": "https://github.com/w3743/ESG/releases/download/esg-qwen35-9b-b09-20260929-q5-k-m/ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part002"
+    },
+    {
+      "name": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part003",
+      "size_bytes": 1900000000,
+      "sha256": "8423f8785ce0f7c5cb25c1cd40f63b74526b15e3c7847869b3c6eaf72f4a3ba6",
+      "url": "https://github.com/w3743/ESG/releases/download/esg-qwen35-9b-b09-20260929-q5-k-m/ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part003"
+    },
+    {
+      "name": "ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part004",
+      "size_bytes": 767969664,
+      "sha256": "e7d124b7f401478b246470a31555ccf96386c1b2ccda84e897bd58a5a01c6ade",
+      "url": "https://github.com/w3743/ESG/releases/download/esg-qwen35-9b-b09-20260929-q5-k-m/ESG-Split-Classify-Qwen3.5-9B-B09-20260929-Q5_K_M.gguf.part004"
+    }
+  ]
+}

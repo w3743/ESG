@@ -60,7 +60,7 @@ mineru -p <pdf> -o <output> -b pipeline -m ocr -l ch -t false
 2. 运行文件扩展名、目录白名单和 Markdown 非空检查；来源、去重和唯一性在本地验收阶段完成。
 3. 只按明确路径 git add models/... pdf_text/... README.md UPLOAD_CONSTRAINTS.md .gitattributes .gitignore，禁止 git add .。
 4. 检查 git diff --cached --name-only，确认没有 PDF、图片、归档、训练文件或临时文件。
-5. 模型文件继续使用 Git LFS；解析文字保持普通 Git 文件，避免小文件 LFS 对象泛滥。
+5. 模型权重和模型包使用 Git LFS；解析文字、README、配置、分词器和校验清单保持普通 Git 文件。超过单文件分发限制的 GGUF 可按第 7 节使用 Release 分卷。
 6. 使用清晰提交信息，例如 Add batch 05 parsed PDF text 或 Update model release。
 7. 先推送 LFS 对象，再快进推送 main；禁止 --force。
 8. 推送后核对远程提交、LFS 指针、远程文件树和本地 git status。
@@ -80,3 +80,19 @@ git ls-tree -r --name-only HEAD
 - `pdf_text/` 中只有 Markdown/TXT 文字文件及目录说明；
 - GitHub 远程 main 与本次发布提交一致；
 - LFS 指针的 OID 与本地文件 SHA-256 一致。
+
+## 7. 超大 GGUF 的 Release 分发
+
+超大 GGUF 可发布到本仓库 GitHub Release，各附件必须小于 2 GiB。此方式不将 GGUF 分卷写入 Git 历史，也不生成虚假的 LFS 指针。
+
+模型目录仍使用 models/<base-family>/<task-and-version>/，仅保留模型说明、下载清单、SHA-256 校验表，以及必要的下载/合并运行工具。该工具属于模型分发所需的最小运行文件，不是训练脚本。
+
+发布流程：
+
+1. 核对完整 GGUF 的大小、文件头及 SHA-256，再按顺序生成分卷与逐卷哈希。
+2. 创建 draft Release，上传全部分卷和清单，并核对服务端的附件大小与 SHA-256 digest。
+3. 将模型目录、根说明和必要 Git 规则以单个明确范围的提交正常推送到 main。
+4. 将 Release 绑定到本次提交；核验下载/合并工具后再公开。实验候选使用 prerelease，不标为正式模型。
+5. 发布后再次核对 Release 附件、下载 URL、远程提交和本地工作区状态。
+
+Release 模型使用完整文件和逐卷哈希验收；第 6 节的 LFS OID 检查适用于 Git LFS 交付物。
